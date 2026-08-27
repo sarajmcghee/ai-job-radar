@@ -1,0 +1,186 @@
+Anthropic,anthropic
+OpenAI,openai
+Mistral AI,mistral
+Cohere,cohere
+AI21 Labs,ai21labs
+Stability AI,stabilityai
+Runway,runwayml
+Perplexity,perplexityai
+xAI,xai
+Character AI,character
+Reka AI,rekaai
+Imbue,imbue
+Sakana AI,sakanaai
+Luma AI,lumaai
+ElevenLabs,elevenlabs
+Suno,suno
+Pika,pika
+Synthesia,synthesia
+Hugging Face,huggingface
+Scale AI,scaleai
+Weights and Biases,weightsandbiases
+LangChain,langchain
+LlamaIndex,llamaindex
+Pinecone,pinecone
+Weaviate,weaviate
+Chroma,trychroma
+Qdrant,qdrant
+Together AI,togetherai
+Together,together
+Replicate,replicate
+Modal,modal
+Modal Labs,modallabs
+Anyscale,anyscale
+Fireworks AI,fireworksai
+Baseten,baseten
+Lambda Labs,lambdalabs
+Lambda,lambda
+CoreWeave,coreweave
+RunPod,runpod
+Groq,groq
+Cerebras,cerebras
+SambaNova,sambanovasystems
+Tenstorrent,tenstorrent
+Etched,etched
+Modular,modular
+Databricks,databricks
+Snowflake,snowflake
+dbt Labs,dbtlabs
+Prefect,prefect
+Dagster,dagsterlabs
+Airbyte,airbyte
+Fivetran,fivetran
+Labelbox,labelbox
+Surge AI,surgehq
+Snorkel AI,snorkelai
+Cleanlab,cleanlab
+Galileo,rungalileo
+Arize AI,arizeai
+WhyLabs,whylabs
+Fiddler AI,fiddler
+Patronus AI,patronusai
+Braintrust,braintrust
+Langfuse,langfuse
+Humanloop,humanloop
+LaunchDarkly,launchdarkly
+Notion,notion
+Figma,figma
+Canva,canva
+Jasper,jasper
+Writer,writer
+Glean,glean
+Harvey,harvey
+Abridge,abridge
+Hippocratic AI,hippocraticai
+Anysphere,anysphere
+Cursor,cursor
+Replit,replit
+Codeium,codeium
+Windsurf,windsurf
+Sourcegraph,sourcegraph
+Poolside,poolside
+Augment Code,augmentcode
+Cognition,cognition
+Sierra,sierra
+Decagon,decagon
+Clay,clay
+Gamma,gamma
+Descript,descript
+Grammarly,grammarly
+Vercel,vercel
+Supabase,supabase
+Neon,neondatabase
+Elastic,elastic
+Algolia,algolia
+Waymo,waymo
+Zoox,zoox
+Nuro,nuro
+Aurora,aurorainnovation
+Applied Intuition,appliedintuition
+Skydio,skydio
+Figure,figureai
+1X,1x
+Agility Robotics,agilityrobotics
+Physical Intelligence,physicalintelligence
+Covariant,covariant
+Tempus,tempus
+PathAI,pathai
+Insitro,insitro
+Recursion,recursionpharmaceuticals
+Isomorphic Labs,isomorphiclabs
+Genesis Therapeutics,genesistherapeutics
+Ramp,ramp
+Brex,brex
+Mercury,mercury
+Plaid,plaid
+Stripe,stripe
+Datadog,datadog
+Confluent,confluent
+HashiCorp,hashicorp
+GitLab,gitlab
+Cloudflare,cloudflare
+DigitalOcean,digitalocean
+Instacart,instacart
+DoorDash,doordash
+Airbnb,airbnb
+Robinhood,robinhood
+Coinbase,coinbase
+Discord,discord
+Reddit,reddit
+Pinterest,pinterest
+Duolingo,duolingo
+Asana,asana
+Airtable,airtable
+Rippling,rippling
+Deel,deel
+Gusto,gusto
+Benchling,benchling
+Verkada,verkada
+Samsara,samsara
+Scale,scale
+Sigma Computing,sigmacomputing
+Hex,hex
+Omni,omnianalytics
+Census,getcensus
+Hightouch,hightouch
+Retool,retool
+Linear,linear
+Loom,loom
+Miro,miro
+Amplitude,amplitude
+Mixpanel,mixpanel
+PostHog,posthog
+Sentry,sentry
+Temporal,temporaltechnologies
+Render,render
+Railway,railway
+Fly.io,flyio
+Netlify,netlify
+Doppler,doppler
+Chainguard,chainguard
+Wiz,wiz
+Snyk,snyk
+Abnormal Security,abnormalsecurity
+Vanta,vanta
+Drata,drata
+Persona,withpersona
+Alloy,alloy
+Unit21,unit21
+Sardine,sardine
+Nutanix,nutanix
+Rubrik,rubrik
+Cohesity,cohesity
+Grafana Labs,grafanalabs
+Chronosphere,chronosphere
+Honeycomb,honeycombio
+Observe,observeinc
+Cribl,cribl
+Starburst,starburst
+Imply,imply
+ClickHouse,clickhouse
+SingleStore,singlestore
+Timescale,timescale
+Yugabyte,yugabyte
+Cockroach Labs,cockroachlabs
+MongoDB,mongodb
+Redis,redis

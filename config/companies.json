@@ -1,0 +1,734 @@
+[
+  {
+    "name": "1X",
+    "slug": "1x",
+    "platform": "ashby",
+    "job_count": 83
+  },
+  {
+    "name": "Abnormal Security",
+    "slug": "abnormalsecurity",
+    "platform": "greenhouse",
+    "job_count": 77
+  },
+  {
+    "name": "Abridge",
+    "slug": "abridge",
+    "platform": "ashby",
+    "job_count": 45
+  },
+  {
+    "name": "Agility Robotics",
+    "slug": "agilityrobotics",
+    "platform": "greenhouse",
+    "job_count": 65
+  },
+  {
+    "name": "Airbnb",
+    "slug": "airbnb",
+    "platform": "greenhouse",
+    "job_count": 181
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "platform": "ashby",
+    "job_count": 11
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "platform": "greenhouse",
+    "job_count": 16
+  },
+  {
+    "name": "Algolia",
+    "slug": "algolia",
+    "platform": "greenhouse",
+    "job_count": 33
+  },
+  {
+    "name": "Alloy",
+    "slug": "alloy",
+    "platform": "greenhouse",
+    "job_count": 23
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "platform": "greenhouse",
+    "job_count": 35
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "platform": "greenhouse",
+    "job_count": 560
+  },
+  {
+    "name": "Anyscale",
+    "slug": "anyscale",
+    "platform": "lever",
+    "job_count": 1
+  },
+  {
+    "name": "Arize AI",
+    "slug": "arizeai",
+    "platform": "greenhouse",
+    "job_count": 27
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "platform": "greenhouse",
+    "job_count": 125
+  },
+  {
+    "name": "Baseten",
+    "slug": "baseten",
+    "platform": "ashby",
+    "job_count": 80
+  },
+  {
+    "name": "Benchling",
+    "slug": "benchling",
+    "platform": "ashby",
+    "job_count": 56
+  },
+  {
+    "name": "Braintrust",
+    "slug": "braintrust",
+    "platform": "ashby",
+    "job_count": 24
+  },
+  {
+    "name": "Brex",
+    "slug": "brex",
+    "platform": "greenhouse",
+    "job_count": 294
+  },
+  {
+    "name": "Cerebras",
+    "slug": "cerebras",
+    "platform": "ashby",
+    "job_count": 109
+  },
+  {
+    "name": "Chainguard",
+    "slug": "chainguard",
+    "platform": "greenhouse",
+    "job_count": 87
+  },
+  {
+    "name": "Character AI",
+    "slug": "character",
+    "platform": "ashby",
+    "job_count": 13
+  },
+  {
+    "name": "Chroma",
+    "slug": "trychroma",
+    "platform": "ashby",
+    "job_count": 1
+  },
+  {
+    "name": "ClickHouse",
+    "slug": "clickhouse",
+    "platform": "greenhouse",
+    "job_count": 178
+  },
+  {
+    "name": "Cloudflare",
+    "slug": "cloudflare",
+    "platform": "greenhouse",
+    "job_count": 312
+  },
+  {
+    "name": "Cockroach Labs",
+    "slug": "cockroachlabs",
+    "platform": "greenhouse",
+    "job_count": 26
+  },
+  {
+    "name": "Cognition",
+    "slug": "cognition",
+    "platform": "ashby",
+    "job_count": 89
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "platform": "ashby",
+    "job_count": 146
+  },
+  {
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "platform": "greenhouse",
+    "job_count": 182
+  },
+  {
+    "name": "Confluent",
+    "slug": "confluent",
+    "platform": "ashby",
+    "job_count": 27
+  },
+  {
+    "name": "CoreWeave",
+    "slug": "coreweave",
+    "platform": "greenhouse",
+    "job_count": 270
+  },
+  {
+    "name": "Cribl",
+    "slug": "cribl",
+    "platform": "greenhouse",
+    "job_count": 64
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "platform": "ashby",
+    "job_count": 120
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "platform": "greenhouse",
+    "job_count": 842
+  },
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "platform": "greenhouse",
+    "job_count": 449
+  },
+  {
+    "name": "Decagon",
+    "slug": "decagon",
+    "platform": "ashby",
+    "job_count": 137
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "platform": "greenhouse",
+    "job_count": 8
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "platform": "greenhouse",
+    "job_count": 52
+  },
+  {
+    "name": "Doppler",
+    "slug": "doppler",
+    "platform": "ashby",
+    "job_count": 1
+  },
+  {
+    "name": "Drata",
+    "slug": "drata",
+    "platform": "ashby",
+    "job_count": 47
+  },
+  {
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "platform": "greenhouse",
+    "job_count": 83
+  },
+  {
+    "name": "Elastic",
+    "slug": "elastic",
+    "platform": "greenhouse",
+    "job_count": 335
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "platform": "ashby",
+    "job_count": 248
+  },
+  {
+    "name": "Etched",
+    "slug": "etched",
+    "platform": "ashby",
+    "job_count": 110
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "platform": "greenhouse",
+    "job_count": 160
+  },
+  {
+    "name": "Figure",
+    "slug": "figureai",
+    "platform": "greenhouse",
+    "job_count": 127
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "platform": "greenhouse",
+    "job_count": 239
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "platform": "ashby",
+    "job_count": 33
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "platform": "greenhouse",
+    "job_count": 217
+  },
+  {
+    "name": "Grafana Labs",
+    "slug": "grafanalabs",
+    "platform": "greenhouse",
+    "job_count": 145
+  },
+  {
+    "name": "Gusto",
+    "slug": "gusto",
+    "platform": "greenhouse",
+    "job_count": 89
+  },
+  {
+    "name": "Harvey",
+    "slug": "harvey",
+    "platform": "ashby",
+    "job_count": 349
+  },
+  {
+    "name": "Hex",
+    "slug": "hex",
+    "platform": "ashby",
+    "job_count": 28
+  },
+  {
+    "name": "Hightouch",
+    "slug": "hightouch",
+    "platform": "greenhouse",
+    "job_count": 75
+  },
+  {
+    "name": "Imbue",
+    "slug": "imbue",
+    "platform": "greenhouse",
+    "job_count": 3
+  },
+  {
+    "name": "Imply",
+    "slug": "imply",
+    "platform": "greenhouse",
+    "job_count": 5
+  },
+  {
+    "name": "Insitro",
+    "slug": "insitro",
+    "platform": "ashby",
+    "job_count": 15
+  },
+  {
+    "name": "Instacart",
+    "slug": "instacart",
+    "platform": "greenhouse",
+    "job_count": 115
+  },
+  {
+    "name": "Isomorphic Labs",
+    "slug": "isomorphiclabs",
+    "platform": "greenhouse",
+    "job_count": 29
+  },
+  {
+    "name": "Labelbox",
+    "slug": "labelbox",
+    "platform": "greenhouse",
+    "job_count": 9
+  },
+  {
+    "name": "Lambda",
+    "slug": "lambda",
+    "platform": "ashby",
+    "job_count": 77
+  },
+  {
+    "name": "LangChain",
+    "slug": "langchain",
+    "platform": "ashby",
+    "job_count": 105
+  },
+  {
+    "name": "Langfuse",
+    "slug": "langfuse",
+    "platform": "ashby",
+    "job_count": 7
+  },
+  {
+    "name": "LaunchDarkly",
+    "slug": "launchdarkly",
+    "platform": "greenhouse",
+    "job_count": 51
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "platform": "ashby",
+    "job_count": 29
+  },
+  {
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "platform": "ashby",
+    "job_count": 15
+  },
+  {
+    "name": "Luma AI",
+    "slug": "lumaai",
+    "platform": "ashby",
+    "job_count": 50
+  },
+  {
+    "name": "Mercury",
+    "slug": "mercury",
+    "platform": "greenhouse",
+    "job_count": 53
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "platform": "ashby",
+    "job_count": 39
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "platform": "greenhouse",
+    "job_count": 93
+  },
+  {
+    "name": "Modal",
+    "slug": "modal",
+    "platform": "ashby",
+    "job_count": 31
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "platform": "greenhouse",
+    "job_count": 409
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "platform": "greenhouse",
+    "job_count": 2
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "platform": "ashby",
+    "job_count": 135
+  },
+  {
+    "name": "Nuro",
+    "slug": "nuro",
+    "platform": "greenhouse",
+    "job_count": 100
+  },
+  {
+    "name": "OpenAI",
+    "slug": "openai",
+    "platform": "ashby",
+    "job_count": 744
+  },
+  {
+    "name": "Physical Intelligence",
+    "slug": "physicalintelligence",
+    "platform": "ashby",
+    "job_count": 33
+  },
+  {
+    "name": "Pika",
+    "slug": "pika",
+    "platform": "ashby",
+    "job_count": 10
+  },
+  {
+    "name": "Pinecone",
+    "slug": "pinecone",
+    "platform": "ashby",
+    "job_count": 7
+  },
+  {
+    "name": "Pinterest",
+    "slug": "pinterest",
+    "platform": "greenhouse",
+    "job_count": 215
+  },
+  {
+    "name": "Plaid",
+    "slug": "plaid",
+    "platform": "ashby",
+    "job_count": 101
+  },
+  {
+    "name": "Poolside",
+    "slug": "poolside",
+    "platform": "ashby",
+    "job_count": 15
+  },
+  {
+    "name": "PostHog",
+    "slug": "posthog",
+    "platform": "ashby",
+    "job_count": 14
+  },
+  {
+    "name": "Prefect",
+    "slug": "prefect",
+    "platform": "ashby",
+    "job_count": 7
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "platform": "ashby",
+    "job_count": 8
+  },
+  {
+    "name": "Ramp",
+    "slug": "ramp",
+    "platform": "ashby",
+    "job_count": 136
+  },
+  {
+    "name": "Recursion",
+    "slug": "recursionpharmaceuticals",
+    "platform": "greenhouse",
+    "job_count": 15
+  },
+  {
+    "name": "Reddit",
+    "slug": "reddit",
+    "platform": "greenhouse",
+    "job_count": 151
+  },
+  {
+    "name": "Redis",
+    "slug": "redis",
+    "platform": "ashby",
+    "job_count": 20
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "platform": "ashby",
+    "job_count": 32
+  },
+  {
+    "name": "Replit",
+    "slug": "replit",
+    "platform": "ashby",
+    "job_count": 71
+  },
+  {
+    "name": "Robinhood",
+    "slug": "robinhood",
+    "platform": "greenhouse",
+    "job_count": 129
+  },
+  {
+    "name": "Rubrik",
+    "slug": "rubrik",
+    "platform": "greenhouse",
+    "job_count": 130
+  },
+  {
+    "name": "RunPod",
+    "slug": "runpod",
+    "platform": "ashby",
+    "job_count": 23
+  },
+  {
+    "name": "SambaNova",
+    "slug": "sambanovasystems",
+    "platform": "greenhouse",
+    "job_count": 61
+  },
+  {
+    "name": "Samsara",
+    "slug": "samsara",
+    "platform": "greenhouse",
+    "job_count": 260
+  },
+  {
+    "name": "Sardine",
+    "slug": "sardine",
+    "platform": "ashby",
+    "job_count": 35
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scaleai",
+    "platform": "greenhouse",
+    "job_count": 219
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
+    "platform": "ashby",
+    "job_count": 41
+  },
+  {
+    "name": "Sierra",
+    "slug": "sierra",
+    "platform": "ashby",
+    "job_count": 200
+  },
+  {
+    "name": "Sigma Computing",
+    "slug": "sigmacomputing",
+    "platform": "greenhouse",
+    "job_count": 67
+  },
+  {
+    "name": "SingleStore",
+    "slug": "singlestore",
+    "platform": "greenhouse",
+    "job_count": 35
+  },
+  {
+    "name": "Skydio",
+    "slug": "skydio",
+    "platform": "ashby",
+    "job_count": 128
+  },
+  {
+    "name": "Snorkel AI",
+    "slug": "snorkelai",
+    "platform": "greenhouse",
+    "job_count": 40
+  },
+  {
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "platform": "ashby",
+    "job_count": 386
+  },
+  {
+    "name": "Stability AI",
+    "slug": "stabilityai",
+    "platform": "greenhouse",
+    "job_count": 4
+  },
+  {
+    "name": "Starburst",
+    "slug": "starburst",
+    "platform": "greenhouse",
+    "job_count": 22
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "platform": "greenhouse",
+    "job_count": 577
+  },
+  {
+    "name": "Suno",
+    "slug": "suno",
+    "platform": "ashby",
+    "job_count": 60
+  },
+  {
+    "name": "Supabase",
+    "slug": "supabase",
+    "platform": "ashby",
+    "job_count": 56
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "platform": "ashby",
+    "job_count": 61
+  },
+  {
+    "name": "Temporal",
+    "slug": "temporaltechnologies",
+    "platform": "greenhouse",
+    "job_count": 54
+  },
+  {
+    "name": "Tenstorrent",
+    "slug": "tenstorrent",
+    "platform": "greenhouse",
+    "job_count": 138
+  },
+  {
+    "name": "Together AI",
+    "slug": "togetherai",
+    "platform": "greenhouse",
+    "job_count": 62
+  },
+  {
+    "name": "Vanta",
+    "slug": "vanta",
+    "platform": "ashby",
+    "job_count": 108
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "platform": "greenhouse",
+    "job_count": 89
+  },
+  {
+    "name": "Verkada",
+    "slug": "verkada",
+    "platform": "greenhouse",
+    "job_count": 278
+  },
+  {
+    "name": "Waymo",
+    "slug": "waymo",
+    "platform": "greenhouse",
+    "job_count": 354
+  },
+  {
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "platform": "ashby",
+    "job_count": 1
+  },
+  {
+    "name": "Writer",
+    "slug": "writer",
+    "platform": "ashby",
+    "job_count": 50
+  },
+  {
+    "name": "xAI",
+    "slug": "xai",
+    "platform": "greenhouse",
+    "job_count": 247
+  },
+  {
+    "name": "Yugabyte",
+    "slug": "yugabyte",
+    "platform": "greenhouse",
+    "job_count": 14
+  },
+  {
+    "name": "Zoox",
+    "slug": "zoox",
+    "platform": "lever",
+    "job_count": 244
+  }
+]

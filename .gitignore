@@ -1,0 +1,7 @@
+# Uncompressed working copy of the weekly run; the gzipped snapshot in
+# data/snapshots/ is the committed archive.
+data/latest.json
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

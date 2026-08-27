@@ -1,0 +1,23 @@
+{
+  "_comment": "Your job-matching profile. Edit this freely - it only affects the weekly match issue, never the public dataset. Skill names must match the 'name' fields in skills.json.",
+
+  "have_skills": [
+    "Python", "SQL", "Machine Learning", "LLMs", "AI Agents",
+    "Prompt Engineering", "RAG", "Data Pipelines", "CI/CD", "AWS"
+  ],
+  "learning_skills": [
+    "PyTorch", "Evals", "Vector Databases", "MLOps", "Kubernetes", "TypeScript"
+  ],
+
+  "target_families": ["ml-ai", "data", "swe", "research", "infra"],
+  "target_seniority": ["entry", "mid", "senior"],
+
+  "remote_ok": true,
+  "locations": ["Remote", "United States", "San Francisco", "New York", "Seattle", "Austin"],
+
+  "title_boost": ["AI engineer", "machine learning", "applied", "automation", "forward deployed", "solutions engineer", "data"],
+  "title_exclude": ["intern", "internship", "director", "vice president", "principal", "head of", "manager, "],
+
+  "min_salary": null,
+  "max_results": 25
+}
