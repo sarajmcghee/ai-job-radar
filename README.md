@@ -2,9 +2,9 @@
 
 > Daily snapshot of what AI and tech companies are hiring for in remote roles, built from public job-board APIs. Updated every morning by GitHub Actions.
 
-**2026-08-27** — tracking **3,256 open remote roles** across **94 companies** (969 of them engineering roles). 1,773 postings disclose pay. **3,256 appeared today.**
+**2026-08-27** — tracking **3,257 open remote roles** across **94 companies** (969 of them engineering roles). 1,773 postings disclose pay. **1 appeared today.**
 
-<sub>Remote-only: 14,253 postings were collected across all locations and 22.8% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
+<sub>Remote-only: 14,254 postings were collected across all locations and 22.9% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
 
 ---
 
@@ -71,9 +71,9 @@ _Trend lines appear once a second day has been collected. Each morning's run app
 
 | Role family | Postings | Share |
 |---|---:|---:|
-| gtm | 1,234 | 37.9% |
+| gtm | 1,235 | 37.9% |
 | swe | 572 | 17.6% |
-| other | 526 | 16.2% |
+| other | 526 | 16.1% |
 | ops | 275 | 8.4% |
 | product | 252 | 7.7% |
 | infra | 179 | 5.5% |
@@ -146,4 +146,4 @@ python src/probe_slugs.py candidates.txt > config/companies.json
 - Remote status comes from each board's own field where one exists and from the posted location otherwise. Ashby's `isRemote` is ignored because boards set it true on hybrid onsite roles; its `workplaceType` is used instead.
 
 
-<sub>Generated 2026-08-27T20:06:51+00:00 · 0 board(s) unreachable this run</sub>
+<sub>Generated 2026-08-27T20:10:43+00:00 · 0 board(s) unreachable this run</sub>
