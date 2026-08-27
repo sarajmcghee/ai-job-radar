@@ -66,7 +66,7 @@
       <option value="data">Data</option>
     </select>
     <select id="rem">
-      <option value="">Anywhere</option>
+      <option value="">Any arrangement</option>
       <option value="1">Remote only</option>
     </select>
   </div>
@@ -89,13 +89,16 @@ fetch("data.json").then(r => r.json()).then(d => { DATA = d; render(d); })
 function render(d){
   const s = d.summary;
   document.getElementById("sub").textContent =
-    `Week ${s.week} · ${s.companies} companies tracked · generated ${s.generated_at.slice(0,10)}`;
+    `${s.date} · ${s.companies} companies tracked` +
+    (s.remote_only ? " · remote roles only" : "") +
+    ` · ${s.total_jobs.toLocaleString()} postings`;
 
   const tech = ["research","ml-ai","data","infra","swe"].reduce((a,f)=>a+(s.by_family[f]||0),0);
   document.getElementById("stats").innerHTML = [
-    [s.total_jobs.toLocaleString(), "open roles"],
+    [s.total_jobs.toLocaleString(), s.remote_only ? "open remote roles" : "open roles"],
     [tech.toLocaleString(), "engineering roles"],
-    [(s.remote_share*100).toFixed(0)+"%", "remote-friendly"],
+    [s.remote_only ? (s.remote_share*100).toFixed(0)+"%" : (s.remote_share*100).toFixed(0)+"%",
+      s.remote_only ? "of market is remote" : "remote-friendly"],
     [s.median_salary_midpoint ? money(s.median_salary_midpoint) : "—", "median posted midpoint"],
   ].map(([v,l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
 

@@ -1,0 +1,4 @@
+{
+  "_comment": "Pipeline settings. remote_only limits the dataset to postings that are actually remote; market-wide remote share is still tracked in summary.json either way.",
+  "remote_only": true
+}

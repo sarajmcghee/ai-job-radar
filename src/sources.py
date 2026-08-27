@@ -25,7 +25,26 @@ BOARD_URLS = {
 
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
-REMOTE_RE = re.compile(r"\bremote\b|\bdistributed\b|work from home|\bWFH\b", re.I)
+# Only explicit location language. "Distributed" was originally in here and
+# matched titles like "Distributed Systems Engineer", flagging onsite roles as
+# remote. Location words only, and never inferred from a job title's subject.
+REMOTE_RE = re.compile(
+    r"\bremote\b|work from home|\bWFH\b|\bwork from anywhere\b|\bfully distributed\b", re.I
+)
+# Bare "Hybrid"/"Onsite" means not remote. A location like "Hybrid or Remote"
+# still counts as remote because REMOTE_RE is checked first.
+ONSITE_RE = re.compile(r"\bhybrid\b|\bon-?site\b|\bin[- ]office\b", re.I)
+
+
+def detect_remote(location, title):
+    """Best-effort remote flag from free-text location, with title as backup."""
+    if location:
+        if REMOTE_RE.search(location):
+            return True
+        if ONSITE_RE.search(location):
+            return False
+    # Titles rarely carry location, but "Remote Software Engineer" happens.
+    return bool(title and REMOTE_RE.search(title))
 # Matches "$150,000 - $200,000" and the "$150K – $200K" shorthand Ashby favours.
 SALARY_RE = re.compile(
     r"\$\s?(\d{2,3}(?:,\d{3})?)\s?([Kk])?\s?(?:-|–|—|to)\s?\$?\s?(\d{2,3}(?:,\d{3})?)\s?([Kk])?"
@@ -87,7 +106,7 @@ def _record(company, platform, jid, title, location, url, posted, desc,
     """The single normalized shape every source funnels into."""
     location = location or ""
     if remote is None:
-        remote = bool(REMOTE_RE.search(location) or REMOTE_RE.search(title))
+        remote = detect_remote(location, title)
     return {
         "id": f"{platform}:{company['slug']}:{jid}",
         "company": company["name"],
@@ -131,7 +150,7 @@ def from_lever(company, payload):
             company, "lever", j.get("id"), j.get("text", ""),
             cats.get("location", ""), j.get("hostedUrl", ""), posted, desc,
             department=cats.get("department") or cats.get("team", ""),
-            remote=(cats.get("commitment") or "").lower() == "remote" or None,
+            remote=True if (cats.get("commitment") or "").lower() == "remote" else None,
         ))
     return out
 
@@ -143,11 +162,21 @@ def from_ashby(company, payload):
         comp = j.get("compensation") or {}
         summary = comp.get("scrapeableCompensationSalarySummary") or \
             comp.get("compensationTierSummary") or ""
+        # Ashby's isRemote is set true even for Hybrid onsite roles (one board
+        # returned 78 Hybrid/San Francisco jobs all marked isRemote=true), so
+        # workplaceType is the field to trust when it is present.
+        workplace = (j.get("workplaceType") or "").strip().lower()
+        if workplace == "remote":
+            remote = True
+        elif workplace in ("hybrid", "onsite", "on-site"):
+            remote = False
+        else:
+            remote = None  # unset: fall back to the location heuristic
         out.append(_record(
             company, "ashby", j.get("id"), j.get("title", ""),
             j.get("location", ""), j.get("jobUrl", ""), j.get("publishedAt"), desc,
             department=j.get("department") or j.get("team", ""),
-            remote=j.get("isRemote"),
+            remote=remote,
             salary=parse_salary(summary),
         ))
     return out

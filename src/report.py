@@ -94,23 +94,33 @@ def build_readme(summary, jobs, by_skill, days):
     tech_sal = [j for j in tech if j["salary"]]
 
     L = []
+    remote_only = summary.get("remote_only")
+    scope = "remote " if remote_only else ""
     L.append("# AI Job Radar\n")
     L.append(
-        "> Daily snapshot of what AI and tech companies are actually hiring for, "
-        "built from public job-board APIs. Updated every morning by GitHub Actions.\n"
+        f"> Daily snapshot of what AI and tech companies are hiring for in "
+        f"{'remote roles' if remote_only else 'all roles'}, built from public "
+        "job-board APIs. Updated every morning by GitHub Actions.\n"
     )
     L.append(
-        f"**{summary['date']}** — tracking **{summary['total_jobs']:,} open roles** "
-        f"across **{summary['companies']} companies** "
+        f"**{summary['date']}** — tracking **{summary['total_jobs']:,} open "
+        f"{scope}roles** across **{summary['companies']} companies** "
         f"({len(tech):,} of them engineering roles). "
-        f"{pct(summary['remote_share'])} remote-friendly. "
         f"{summary['salary_disclosed']:,} postings disclose pay. "
         f"**{summary.get('new_today', 0):,} appeared today.**\n"
     )
+    if remote_only:
+        L.append(
+            f"<sub>Remote-only: {summary['total_collected']:,} postings were "
+            f"collected across all locations and "
+            f"{pct(summary['remote_share'])} of them were remote. "
+            f"Set `remote_only` to false in `config/settings.json` to track "
+            f"every location.</sub>\n"
+        )
     L.append("---\n")
 
-    L.append("## Most-requested skills in engineering roles\n")
-    L.append(f"Share of the {len(tech):,} engineering postings that mention each skill.\n")
+    L.append(f"## Most-requested skills in {scope}engineering roles\n")
+    L.append(f"Share of the {len(tech):,} {scope}engineering postings that mention each skill.\n")
     L.append("![Top skills](docs/charts/top-skills.svg)\n")
 
     L.append("<details><summary>Full skill table</summary>\n")
@@ -150,7 +160,7 @@ def build_readme(summary, jobs, by_skill, days):
     if tech_sal:
         mids = sorted((j["salary"][0] + j["salary"][1]) / 2 for j in tech_sal)
         p = lambda q: int(mids[int(len(mids) * q)])  # noqa: E731
-        L.append("## Disclosed pay, engineering roles\n")
+        L.append(f"## Disclosed pay, {scope}engineering roles\n")
         L.append(
             f"{len(tech_sal):,} of {len(tech):,} engineering postings "
             f"({len(tech_sal) / n_tech * 100:.0f}%) publish a salary range. "
@@ -201,6 +211,7 @@ def build_readme(summary, jobs, by_skill, days):
     L.append("| `data/summary.json` | Aggregates for the latest run |")
     L.append("| `config/companies.json` | Tracked companies and their ATS slugs |")
     L.append("| `config/profile.json` | Your skills — drives the daily match issue |")
+    L.append("| `config/settings.json` | `remote_only` and other pipeline switches |")
     L.append("")
     L.append("### Adding a company\n")
     L.append(
@@ -223,6 +234,10 @@ def build_readme(summary, jobs, by_skill, days):
         "scale-ups.\n"
         "- Counts include every posted location for a role, so widely-posted "
         "roles are represented more than once.\n"
+        "- Remote status comes from each board's own field where one exists and "
+        "from the posted location otherwise. Ashby's `isRemote` is ignored "
+        "because boards set it true on hybrid onsite roles; its `workplaceType` "
+        "is used instead.\n"
     )
     L.append(f"\n<sub>Generated {summary['generated_at']} · "
              f"{summary['failed_boards']} board(s) unreachable this run</sub>\n")
@@ -239,19 +254,22 @@ def write_charts(summary, jobs, by_skill, days):
     colors = {k: charts.CAT_COLOR.get(taxonomy.SKILL_CAT.get(k, ""), "#58a6ff") for k, _ in top}
     (ASSETS / "top-skills.svg").write_text(charts.bar_chart(
         [(k, v / n_tech) for k, v in top],
-        f"Skills in {len(tech):,} engineering postings ({summary['date']})",
+        f"Skills in {len(tech):,} {'remote ' if summary.get('remote_only') else ''}"
+        f"engineering postings ({summary['date']})",
         value_fmt="{:.1%}", colors=colors,
     ))
 
     (ASSETS / "families.svg").write_text(charts.bar_chart(
         list(summary["by_family"].items())[:9],
-        f"Open roles by function ({summary['total_jobs']:,} postings)",
+        f"Open {'remote ' if summary.get('remote_only') else ''}roles by function "
+        f"({summary['total_jobs']:,} postings)",
         label_w=110,
     ))
 
     (ASSETS / "companies.svg").write_text(charts.bar_chart(
         list(summary["by_company"].items())[:18],
-        "Companies with the most open roles", label_w=170,
+        f"Companies with the most open {'remote ' if summary.get('remote_only') else ''}roles",
+        label_w=170,
     ))
 
     if len(days) >= 2:

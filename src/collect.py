@@ -35,6 +35,7 @@ DATA = ROOT / "data"
 SNAPSHOTS = DATA / "snapshots"
 TRENDS = DATA / "trends.csv"
 SEEN = DATA / "seen.csv"
+SETTINGS = ROOT / "config" / "settings.json"
 
 
 # Which weekday gets the full archive snapshot (0 = Monday).
@@ -97,8 +98,13 @@ def collect_all(companies, workers=12):
     return jobs, failures
 
 
-def summarize(jobs, day, failures, n_new):
-    """Aggregate one day into the metrics that get tracked over time."""
+def summarize(jobs, day, failures, n_new, collected, remote_count, remote_only):
+    """Aggregate one day into the metrics that get tracked over time.
+
+    `jobs` is the post-filter set. `collected`/`remote_count` describe every
+    posting fetched, so the market-wide remote share stays trackable even when
+    the dataset itself is limited to remote roles.
+    """
     total = len(jobs)
     skill_counts = Counter(s for j in jobs for s in j["skills"])
     salaried = [j for j in jobs if j["salary"]]
@@ -109,9 +115,12 @@ def summarize(jobs, day, failures, n_new):
         "new_today": n_new,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "total_jobs": total,
+        "total_collected": collected,
+        "remote_only": remote_only,
         "companies": len(set(j["company"] for j in jobs)),
         "failed_boards": len(failures),
-        "remote_share": round(sum(j["remote"] for j in jobs) / total, 4) if total else 0,
+        # Share of the whole market that is remote, not of the filtered set.
+        "remote_share": round(remote_count / collected, 4) if collected else 0,
         "salary_disclosed": len(salaried),
         "median_salary_midpoint": int(mids[len(mids) // 2]) if mids else None,
         "by_family": dict(Counter(j["family"] for j in jobs).most_common()),
@@ -170,12 +179,23 @@ def main():
 
     jobs.sort(key=lambda j: (j["company"].lower(), j["title"].lower()))
 
+    settings = json.loads(SETTINGS.read_text()) if SETTINGS.exists() else {}
+    remote_only = settings.get("remote_only", False)
+    collected, remote_count = len(jobs), sum(j["remote"] for j in jobs)
+    if remote_only:
+        jobs = [j for j in jobs if j["remote"]]
+        print(f"  remote_only: kept {len(jobs)} of {collected}", file=sys.stderr)
+        if not jobs:
+            print("No remote jobs matched - aborting without writing.", file=sys.stderr)
+            return 1
+
     DATA.mkdir(parents=True, exist_ok=True)
     fresh = update_seen(jobs, day)
     for j in jobs:
         j["new"] = j["id"] in fresh
 
-    summary = summarize(jobs, day, failures, len(fresh))
+    summary = summarize(jobs, day, failures, len(fresh),
+                        collected, remote_count, remote_only)
     payload = {"summary": summary, "jobs": jobs}
 
     # Working copy for report.py and match.py; gitignored, ~6MB.
@@ -193,7 +213,8 @@ def main():
     n = append_trends(summary)
 
     print(
-        f"\n{summary['total_jobs']} jobs / {summary['companies']} companies "
+        f"\n{summary['total_jobs']} jobs (of {collected} collected) "
+        f"/ {summary['companies']} companies "
         f"/ {len(fresh)} new today / {n} skill rows / {len(failures)} failed boards "
         f"in {time.time() - started:.0f}s",
         file=sys.stderr,
