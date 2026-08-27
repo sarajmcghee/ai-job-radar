@@ -1,18 +1,16 @@
-"""Score this week's newly-appeared postings against config/profile.json.
+"""Score today's newly-appeared postings against config/profile.json.
 
-Writes a Markdown digest that the weekly workflow posts as a GitHub Issue.
+Writes a Markdown digest that the daily workflow posts as a GitHub Issue, and
+exits with a marker the workflow reads so it can skip posting on quiet days.
 This is the personal half of the repo: it surfaces and ranks roles for a human
 to read. It never contacts an employer or submits anything.
 """
-import gzip
 import json
 import re
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-SNAPSHOTS = DATA / "snapshots"
 
 # A skill you already have is worth more than one you are working toward.
 W_HAVE, W_LEARNING = 3.0, 1.5
@@ -23,13 +21,8 @@ def load_profile():
     return json.loads((ROOT / "config" / "profile.json").read_text())
 
 
-def snapshot_weeks():
-    return sorted(p.stem.replace(".json", "") for p in SNAPSHOTS.glob("*.json.gz"))
-
-
-def load_snapshot(week):
-    with gzip.open(SNAPSHOTS / f"{week}.json.gz", "rt", encoding="utf-8") as f:
-        return json.load(f)
+def load_latest():
+    return json.loads((DATA / "latest.json").read_text())
 
 
 def score(job, profile):
@@ -78,30 +71,33 @@ def score(job, profile):
     return total, reasons
 
 
-def new_jobs(current, previous):
-    """Postings present this week that were absent last week."""
-    if previous is None:
-        return current["jobs"]
-    seen = {j["id"] for j in previous["jobs"]}
-    return [j for j in current["jobs"] if j["id"] not in seen]
+def new_jobs(payload):
+    """Postings whose id was first observed on this run.
+
+    collect.py sets this from data/seen.csv, so it stays accurate on a daily
+    cadence without keeping a full snapshot for every single day.
+    """
+    fresh = [j for j in payload["jobs"] if j.get("new")]
+    # First ever run: everything is "new", which would be a useless digest, so
+    # fall back to scoring the whole board once.
+    return fresh, len(fresh) == len(payload["jobs"])
 
 
-def render(matches, week, n_new, first_run):
+def render(matches, day, n_new, first_run):
     if not matches:
-        return (f"## No new matches this week ({week})\n\n"
-                f"{n_new:,} new postings were collected; none cleared the profile "
-                f"in `config/profile.json`. Loosen `target_families` or "
-                f"`title_exclude` if this keeps happening.\n")
+        return (f"## No new matches — {day}\n\n"
+                f"{n_new:,} new postings appeared today; none cleared the profile "
+                f"in `config/profile.json`.\n")
 
-    L = [f"## {len(matches)} roles worth a look — {week}\n"]
+    L = [f"## {len(matches)} new roles worth a look — {day}\n"]
     if first_run:
         L.append("_First run, so this scores every posting currently open. "
-                 "From next week it will only show newly-appeared roles._\n")
+                 "From tomorrow it will only show roles that newly appeared._\n")
     else:
-        L.append(f"_Scored against {n_new:,} postings that are new since last week._\n")
+        L.append(f"_Scored against {n_new:,} postings that appeared today._\n")
 
     for i, (job, sc, reasons) in enumerate(matches, 1):
-        loc = "Remote" if job["remote"] else (job["location"] or "—")
+        loc = "Remote" if job["remote"] else (job["location"] or "\u2014")
         pay = f" · ${job['salary'][0]:,}–${job['salary'][1]:,}" if job["salary"] else ""
         L.append(f"**{i}. [{job['title']}]({job['url']})** — {job['company']}  ")
         L.append(f"<sub>{loc}{pay} · {job['family']} / {job['seniority']} · score {sc:.0f}</sub>  ")
@@ -118,14 +114,9 @@ def render(matches, week, n_new, first_run):
 
 def main():
     profile = load_profile()
-    weeks = snapshot_weeks()
-    if not weeks:
-        print("No snapshots found.", file=sys.stderr)
-        return 1
-
-    current = load_snapshot(weeks[-1])
-    previous = load_snapshot(weeks[-2]) if len(weeks) > 1 else None
-    candidates = new_jobs(current, previous)
+    payload = load_latest()
+    day = payload["summary"]["date"]
+    candidates, first_run = new_jobs(payload)
 
     scored = []
     for job in candidates:
@@ -135,10 +126,10 @@ def main():
     scored.sort(key=lambda t: -t[1])
     scored = scored[: profile.get("max_results", 25)]
 
-    body = render(scored, weeks[-1], len(candidates), previous is None)
-    out = DATA / "matches.md"
-    out.write_text(body)
-    print(f"{len(scored)} matches from {len(candidates)} new postings -> {out}")
+    (DATA / "matches.md").write_text(render(scored, day, len(candidates), first_run))
+    # The workflow reads this to decide whether opening an issue is worthwhile.
+    (DATA / "match_count.txt").write_text(str(len(scored)))
+    print(f"{len(scored)} matches from {len(candidates)} new postings")
     return 0
 
 

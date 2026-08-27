@@ -7,6 +7,7 @@ import csv
 import json
 import sys
 from collections import Counter, defaultdict
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -21,31 +22,52 @@ ASSETS = DOCS / "charts"
 # Families whose postings describe engineering work. Skill counts over *all*
 # postings are diluted by sales and ops roles, so headline numbers use these.
 TECH_FAMILIES = {"research", "ml-ai", "data", "infra", "swe"}
-MIN_MOVER_BASE = 25  # ignore skills too rare for a share change to mean anything
+MIN_MOVER_BASE = 25
+
+
+def movers_baseline(days):
+    """Label for the day the movers table compares against."""
+    if len(days) < 2:
+        return None
+    cur = days[-1]
+    prior = [d for d in days if d < cur]
+    older = [d for d in prior if (date.fromisoformat(cur) - date.fromisoformat(d)).days >= 7]
+    return older[-1] if older else prior[0]  # ignore skills too rare for a share change to mean anything
 
 
 def load_trends():
-    """trends.csv -> {skill: {week: share}} plus the ordered list of weeks."""
+    """trends.csv -> {skill: {date: share}} plus the ordered list of dates."""
     if not TRENDS_PATH.exists():
         return {}, []
     by_skill = defaultdict(dict)
-    weeks = []
+    days = []
     with TRENDS_PATH.open() as f:
         for row in csv.DictReader(f):
-            by_skill[row["skill"]][row["week"]] = float(row["share"])
-            if row["week"] not in weeks:
-                weeks.append(row["week"])
-    return by_skill, sorted(weeks)
+            day = row.get("date") or row.get("week", "")
+            if "-W" in day:  # legacy weekly rows, dropped on the next write
+                continue
+            by_skill[row["skill"]][day] = float(row["share"])
+            if day not in days:
+                days.append(day)
+    return by_skill, sorted(days)
 
 
 TRENDS_PATH = DATA / "trends.csv"
 
 
-def movers(by_skill, weeks, counts, limit=8):
-    """Largest week-over-week share changes, in percentage points."""
-    if len(weeks) < 2:
+def movers(by_skill, days, counts, limit=8, lookback=7):
+    """Largest share changes over `lookback` days, in percentage points.
+
+    Compared against roughly a week ago rather than yesterday: day-to-day churn
+    on job boards is mostly posting noise, not a shift in demand.
+    """
+    if len(days) < 2:
         return [], []
-    cur, prev = weeks[-1], weeks[-2]
+    cur = days[-1]
+    prior = [d for d in days if d < cur]
+    # nearest day at least `lookback` back, else the oldest we have
+    older = [d for d in prior if (date.fromisoformat(cur) - date.fromisoformat(d)).days >= lookback]
+    prev = older[-1] if older else prior[0]
     deltas = []
     for skill, series in by_skill.items():
         if cur not in series or prev not in series:
@@ -61,27 +83,29 @@ def pct(x):
     return f"{x * 100:.1f}%"
 
 
-def build_readme(summary, jobs, by_skill, weeks):
+def build_readme(summary, jobs, by_skill, days):
     tech = [j for j in jobs if j["family"] in TECH_FAMILIES]
     tech_skills = Counter(s for j in tech for s in j["skills"])
     n_tech = len(tech) or 1
 
-    up, down = movers(by_skill, weeks, Counter(s for j in jobs for s in j["skills"]))
+    up, down = movers(by_skill, days, Counter(s for j in jobs for s in j["skills"]))
+    baseline = movers_baseline(days)
     sal = [j for j in jobs if j["salary"]]
     tech_sal = [j for j in tech if j["salary"]]
 
     L = []
     L.append("# AI Job Radar\n")
     L.append(
-        "> Weekly snapshot of what AI and tech companies are actually hiring for, "
-        "built from public job-board APIs. Updated every Monday by GitHub Actions.\n"
+        "> Daily snapshot of what AI and tech companies are actually hiring for, "
+        "built from public job-board APIs. Updated every morning by GitHub Actions.\n"
     )
     L.append(
-        f"**Week {summary['week']}** — tracking **{summary['total_jobs']:,} open roles** "
+        f"**{summary['date']}** — tracking **{summary['total_jobs']:,} open roles** "
         f"across **{summary['companies']} companies** "
         f"({len(tech):,} of them engineering roles). "
         f"{pct(summary['remote_share'])} remote-friendly. "
-        f"{summary['salary_disclosed']:,} postings disclose pay.\n"
+        f"{summary['salary_disclosed']:,} postings disclose pay. "
+        f"**{summary.get('new_today', 0):,} appeared today.**\n"
     )
     L.append("---\n")
 
@@ -98,8 +122,8 @@ def build_readme(summary, jobs, by_skill, weeks):
     L.append("\n</details>\n")
 
     if up:
-        L.append("## Week-over-week movers\n")
-        L.append(f"Change in share of postings since {weeks[-2]}, in percentage points.\n")
+        L.append("## Movers\n")
+        L.append(f"Change in share of postings since {baseline}, in percentage points.\n")
         L.append("| Rising | Δ pp | | Falling | Δ pp |")
         L.append("|---|---:|---|---|---:|")
         for i in range(max(len(up), len(down))):
@@ -109,10 +133,10 @@ def build_readme(summary, jobs, by_skill, weeks):
         L.append("")
         L.append("![Skill trends](docs/charts/trends.svg)\n")
     else:
-        L.append("## Week-over-week movers\n")
+        L.append("## Movers\n")
         L.append(
-            "_Trend lines appear once a second week has been collected. "
-            "Each Monday's run appends to `data/trends.csv`._\n"
+            "_Trend lines appear once a second day has been collected. "
+            "Each morning's run appends to `data/trends.csv`._\n"
         )
 
     L.append("## Where the roles are\n")
@@ -161,7 +185,7 @@ def build_readme(summary, jobs, by_skill, weeks):
     L.append("---\n")
     L.append("## How this works\n")
     L.append(
-        "Every Monday at 08:00 UTC a GitHub Actions workflow queries the public "
+        "Every day at 08:00 UTC a GitHub Actions workflow queries the public "
         "job-board APIs of the companies in [`config/companies.json`]"
         "(config/companies.json) — Greenhouse, Lever and Ashby all expose "
         "unauthenticated JSON endpoints. Each posting's description is scanned "
@@ -171,11 +195,12 @@ def build_readme(summary, jobs, by_skill, weeks):
     )
     L.append("| Path | What it holds |")
     L.append("|---|---|")
-    L.append("| `data/trends.csv` | One row per skill per week — the long-run time series |")
-    L.append("| `data/snapshots/<week>.json.gz` | Every derived posting for that week |")
-    L.append("| `data/summary.json` | Aggregates for the latest week |")
+    L.append("| `data/trends.csv` | One row per skill per day — the long-run time series |")
+    L.append("| `data/seen.csv` | Every posting id and the date it first appeared |")
+    L.append("| `data/snapshots/<week>.json.gz` | Full postings, archived weekly |")
+    L.append("| `data/summary.json` | Aggregates for the latest run |")
     L.append("| `config/companies.json` | Tracked companies and their ATS slugs |")
-    L.append("| `config/profile.json` | Your skills — drives the weekly match issue |")
+    L.append("| `config/profile.json` | Your skills — drives the daily match issue |")
     L.append("")
     L.append("### Adding a company\n")
     L.append(
@@ -204,7 +229,7 @@ def build_readme(summary, jobs, by_skill, weeks):
     return "\n".join(L)
 
 
-def write_charts(summary, jobs, by_skill, weeks):
+def write_charts(summary, jobs, by_skill, days):
     ASSETS.mkdir(parents=True, exist_ok=True)
     tech = [j for j in jobs if j["family"] in TECH_FAMILIES]
     n_tech = len(tech) or 1
@@ -214,7 +239,7 @@ def write_charts(summary, jobs, by_skill, weeks):
     colors = {k: charts.CAT_COLOR.get(taxonomy.SKILL_CAT.get(k, ""), "#58a6ff") for k, _ in top}
     (ASSETS / "top-skills.svg").write_text(charts.bar_chart(
         [(k, v / n_tech) for k, v in top],
-        f"Skills in {len(tech):,} engineering postings ({summary['week']})",
+        f"Skills in {len(tech):,} engineering postings ({summary['date']})",
         value_fmt="{:.1%}", colors=colors,
     ))
 
@@ -229,10 +254,10 @@ def write_charts(summary, jobs, by_skill, weeks):
         "Companies with the most open roles", label_w=170,
     ))
 
-    if len(weeks) >= 2:
+    if len(days) >= 2:
         headline = [k for k, _ in tech_skills.most_common(6)]
-        series = {s: [by_skill.get(s, {}).get(w) for w in weeks] for s in headline}
-        svg = charts.line_chart(series, weeks, "Skill share over time")
+        series = {s: [by_skill.get(s, {}).get(d) for d in days] for s in headline}
+        svg = charts.line_chart(series, [d[5:] for d in days], "Skill share over time")
         if svg:
             (ASSETS / "trends.svg").write_text(svg)
 
@@ -258,12 +283,12 @@ def write_dashboard(summary, jobs):
 def main():
     payload = json.loads((DATA / "latest.json").read_text())
     summary, jobs = payload["summary"], payload["jobs"]
-    by_skill, weeks = load_trends()
+    by_skill, days = load_trends()
 
-    write_charts(summary, jobs, by_skill, weeks)
+    write_charts(summary, jobs, by_skill, days)
     write_dashboard(summary, jobs)
-    (ROOT / "README.md").write_text(build_readme(summary, jobs, by_skill, weeks))
-    print(f"report written for {summary['week']} ({len(weeks)} week(s) of history)")
+    (ROOT / "README.md").write_text(build_readme(summary, jobs, by_skill, days))
+    print(f"report written for {summary['date']} ({len(days)} day(s) of history)")
     return 0
 
 

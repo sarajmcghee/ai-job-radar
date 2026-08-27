@@ -1,10 +1,10 @@
-name: Weekly job radar
+name: Daily job radar
 
 on:
   schedule:
-    # Mondays at 08:00 UTC. GitHub queues cron runs on shared infrastructure,
+    # Every day at 08:00 UTC. GitHub queues cron runs on shared infrastructure,
     # so the actual start can drift by several minutes.
-    - cron: "0 8 * * 1"
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       skip_issue:
@@ -17,7 +17,7 @@ permissions:
   issues: write     # open the weekly match digest
 
 concurrency:
-  group: weekly-radar
+  group: daily-radar
   cancel-in-progress: false
 
 jobs:
@@ -40,7 +40,10 @@ jobs:
         run: python src/report.py
 
       - name: Score against profile
-        run: python src/match.py
+        id: match
+        run: |
+          python src/match.py
+          echo "count=$(cat data/match_count.txt)" >> "$GITHUB_OUTPUT"
 
       - name: Commit dataset
         id: commit
@@ -52,27 +55,26 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit."
           else
-            git commit -m "data: weekly snapshot $(date -u +%Y-W%V)"
+            git commit -m "data: daily run $(date -u +%F)"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # Only post when something actually matched. On a daily cadence an
+      # unconditional issue would mean 365 notifications a year, most empty.
       - name: Open match issue
-        if: ${{ inputs.skip_issue != true }}
+        if: ${{ inputs.skip_issue != true && steps.match.outputs.count != '0' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "Job matches — week $(date -u +%Y-W%V)" \
+            --title "Job matches — $(date -u +%F) (${{ steps.match.outputs.count }})" \
             --body-file data/matches.md \
-            --label "job-matches" \
-            || gh issue create \
-                 --title "Job matches — week $(date -u +%Y-W%V)" \
-                 --body-file data/matches.md
+            --label "job-matches"
 
       - name: Summary
         run: |
           {
-            echo "### Weekly radar"
-            python -c "import json;s=json.load(open('data/summary.json'));print(f\"- **{s['total_jobs']:,}** roles across **{s['companies']}** companies\n- {s['failed_boards']} board(s) unreachable\n- Remote share: {s['remote_share']:.1%}\")"
+            echo "### Daily radar"
+            python -c "import json;s=json.load(open('data/summary.json'));print(f\"- **{s['total_jobs']:,}** roles across **{s['companies']}** companies\n- **{s.get('new_today',0):,}** new today\n- {s['failed_boards']} board(s) unreachable\n- Remote share: {s['remote_share']:.1%}\")"
           } >> "$GITHUB_STEP_SUMMARY"

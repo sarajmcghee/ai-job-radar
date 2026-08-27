@@ -1,6 +1,6 @@
-## 25 roles worth a look — 2026-W35
+## 25 new roles worth a look — 2026-08-27
 
-_First run, so this scores every posting currently open. From next week it will only show newly-appeared roles._
+_First run, so this scores every posting currently open. From tomorrow it will only show roles that newly appeared._
 
 **1. [Senior Machine Learning Engineer](https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034)** — Cloudflare  
 <sub>Hybrid · ml-ai / senior · score 46</sub>  
@@ -42,12 +42,12 @@ _First run, so this scores every posting currently open. From next week it will 
 <sub>Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA · $182,000–$242,000 · ml-ai / senior · score 41</sub>  
 <sub>matches AI Agents, AWS, CI/CD, Data Pipelines, LLMs, Machine Learning, Python; stretches into Kubernetes, TypeScript; $182,000-$242,000</sub>
 
-**11. [Senior R&D Software Engineer, Fivetran AI](https://www.fivetran.com/careers/job?gh_jid=7810467003)** — Fivetran  
-<sub>Denver, Colorado, United States, AMER · swe / senior · score 41</sub>  
+**11. [Senior R&D Software Engineer, Fivetran AI](https://www.fivetran.com/careers/job?gh_jid=7810466003)** — Fivetran  
+<sub>USA - Austin (dbt) · swe / senior · score 41</sub>  
 <sub>matches AI Agents, AWS, Data Pipelines, LLMs, Machine Learning, Python, RAG, SQL; stretches into Evals, Kubernetes, TypeScript, Vector Databases</sub>
 
-**12. [Senior R&D Software Engineer, Fivetran AI](https://www.fivetran.com/careers/job?gh_jid=7810466003)** — Fivetran  
-<sub>USA - Austin (dbt) · swe / senior · score 41</sub>  
+**12. [Senior R&D Software Engineer, Fivetran AI](https://www.fivetran.com/careers/job?gh_jid=7810467003)** — Fivetran  
+<sub>Denver, Colorado, United States, AMER · swe / senior · score 41</sub>  
 <sub>matches AI Agents, AWS, Data Pipelines, LLMs, Machine Learning, Python, RAG, SQL; stretches into Evals, Kubernetes, TypeScript, Vector Databases</sub>
 
 **13. [Senior ML & AI Technical Solutions Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=7845325002)** — Databricks  

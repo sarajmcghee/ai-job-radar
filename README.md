@@ -1,8 +1,8 @@
 # AI Job Radar
 
-> Weekly snapshot of what AI and tech companies are actually hiring for, built from public job-board APIs. Updated every Monday by GitHub Actions.
+> Daily snapshot of what AI and tech companies are actually hiring for, built from public job-board APIs. Updated every morning by GitHub Actions.
 
-**Week 2026-W35** — tracking **14,256 open roles** across **122 companies** (4,504 of them engineering roles). 36.6% remote-friendly. 7,730 postings disclose pay.
+**2026-08-27** — tracking **14,257 open roles** across **122 companies** (4,504 of them engineering roles). 36.6% remote-friendly. 7,730 postings disclose pay. **14,257 appeared today.**
 
 ---
 
@@ -59,9 +59,9 @@ Share of the 4,504 engineering postings that mention each skill.
 
 </details>
 
-## Week-over-week movers
+## Movers
 
-_Trend lines appear once a second week has been collected. Each Monday's run appends to `data/trends.csv`._
+_Trend lines appear once a second day has been collected. Each morning's run appends to `data/trends.csv`._
 
 ## Where the roles are
 
@@ -72,7 +72,7 @@ _Trend lines appear once a second week has been collected. Each Monday's run app
 | gtm | 4,582 | 32.1% |
 | swe | 2,610 | 18.3% |
 | other | 2,302 | 16.1% |
-| ops | 1,613 | 11.3% |
+| ops | 1,614 | 11.3% |
 | product | 1,255 | 8.8% |
 | infra | 910 | 6.4% |
 | ml-ai | 450 | 3.2% |
@@ -115,15 +115,16 @@ _Trend lines appear once a second week has been collected. Each Monday's run app
 
 ## How this works
 
-Every Monday at 08:00 UTC a GitHub Actions workflow queries the public job-board APIs of the companies in [`config/companies.json`](config/companies.json) — Greenhouse, Lever and Ashby all expose unauthenticated JSON endpoints. Each posting's description is scanned for the ~66 technologies defined in [`config/skills.json`](config/skills.json), then the description text is discarded and only the derived record is stored.
+Every day at 08:00 UTC a GitHub Actions workflow queries the public job-board APIs of the companies in [`config/companies.json`](config/companies.json) — Greenhouse, Lever and Ashby all expose unauthenticated JSON endpoints. Each posting's description is scanned for the ~66 technologies defined in [`config/skills.json`](config/skills.json), then the description text is discarded and only the derived record is stored.
 
 | Path | What it holds |
 |---|---|
-| `data/trends.csv` | One row per skill per week — the long-run time series |
-| `data/snapshots/<week>.json.gz` | Every derived posting for that week |
-| `data/summary.json` | Aggregates for the latest week |
+| `data/trends.csv` | One row per skill per day — the long-run time series |
+| `data/seen.csv` | Every posting id and the date it first appeared |
+| `data/snapshots/<week>.json.gz` | Full postings, archived weekly |
+| `data/summary.json` | Aggregates for the latest run |
 | `config/companies.json` | Tracked companies and their ATS slugs |
-| `config/profile.json` | Your skills — drives the weekly match issue |
+| `config/profile.json` | Your skills — drives the daily match issue |
 
 ### Adding a company
 
@@ -141,4 +142,4 @@ python src/probe_slugs.py candidates.txt > config/companies.json
 - Counts include every posted location for a role, so widely-posted roles are represented more than once.
 
 
-<sub>Generated 2026-08-27T19:52:10+00:00 · 0 board(s) unreachable this run</sub>
+<sub>Generated 2026-08-27T19:57:32+00:00 · 0 board(s) unreachable this run</sub>
