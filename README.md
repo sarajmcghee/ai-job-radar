@@ -2,7 +2,7 @@
 
 > Weekly snapshot of what AI and tech companies are actually hiring for, built from public job-board APIs. Updated every Monday by GitHub Actions.
 
-**Week 2026-W35** — tracking **14,257 open roles** across **122 companies** (4,504 of them engineering roles). 36.6% remote-friendly. 7,730 postings disclose pay.
+**Week 2026-W35** — tracking **14,256 open roles** across **122 companies** (4,504 of them engineering roles). 36.6% remote-friendly. 7,730 postings disclose pay.
 
 ---
 
@@ -72,7 +72,7 @@ _Trend lines appear once a second week has been collected. Each Monday's run app
 | gtm | 4,582 | 32.1% |
 | swe | 2,610 | 18.3% |
 | other | 2,302 | 16.1% |
-| ops | 1,614 | 11.3% |
+| ops | 1,613 | 11.3% |
 | product | 1,255 | 8.8% |
 | infra | 910 | 6.4% |
 | ml-ai | 450 | 3.2% |
@@ -141,4 +141,4 @@ python src/probe_slugs.py candidates.txt > config/companies.json
 - Counts include every posted location for a role, so widely-posted roles are represented more than once.
 
 
-<sub>Generated 2026-08-27T19:48:34+00:00 · 0 board(s) unreachable this run</sub>
+<sub>Generated 2026-08-27T19:52:10+00:00 · 0 board(s) unreachable this run</sub>
