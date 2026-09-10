@@ -1,106 +1,106 @@
-## 25 new roles worth a look — 2026-09-09
+## 25 new roles worth a look — 2026-09-10
 
-_Scored against 77 postings that appeared today._
+_Scored against 65 postings that appeared today._
 
-**1. [Security Engineer](https://jobs.ashbyhq.com/gamma/79b3efcd-0380-41bc-9556-bc7c681adc43)** — Gamma  
-<sub>Remote · $180,000–$310,000 · infra / mid · score 30</sub>  
-<sub>matches AWS, CI/CD, LLMs, Machine Learning, Python; stretches into TypeScript; $180,000-$310,000</sub>
+**1. [Senior Legal AI Platform Engineer](https://cribl.io/job-detail/?gh_jid=6183372004)** — Cribl  
+<sub>Remote · $100,000–$150,000 · ml-ai / senior · score 28</sub>  
+<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; $100,000-$150,000</sub>
 
-**2. [AI Engineer](https://jobs.ashbyhq.com/gamma/6ed26f6b-bb17-41a5-8f63-f1901554cb6b)** — Gamma  
-<sub>Remote · $180,000–$300,000 · ml-ai / mid · score 29</sub>  
-<sub>matches LLMs, Prompt Engineering, Python; stretches into Evals, TypeScript; $180,000-$300,000</sub>
+**2. [Senior Software Engineer II](https://www.samsara.com/company/careers/roles/8083934?gh_jid=8083934)** — Samsara  
+<sub>Remote · $142,800–$184,800 · swe / senior · score 28</sub>  
+<sub>matches AI Agents, LLMs, Python, RAG; stretches into TypeScript, Vector Databases; $142,800-$184,800</sub>
 
-**3. [AI Data Scientist](https://jobs.ashbyhq.com/gamma/a7043f8c-fd04-46fb-a5d9-e4b8845ba10d)** — Gamma  
-<sub>Remote · $180,000–$310,000 · ml-ai / mid · score 28</sub>  
-<sub>matches AI Agents, LLMs, Machine Learning; stretches into Evals; $180,000-$310,000</sub>
+**3. [Senior Software Engineer II](https://www.samsara.com/company/careers/roles/8063736?gh_jid=8063736)** — Samsara  
+<sub>Remote · $154,700–$260,000 · swe / senior · score 28</sub>  
+<sub>matches AI Agents, LLMs, Python, RAG; stretches into TypeScript, Vector Databases; $154,700-$260,000</sub>
 
-**4. [Senior AI Engineer – Notebooks](https://careers.datadoghq.com/detail/8188028/?gh_jid=8188028)** — Datadog  
-<sub>Remote · ml-ai / senior · score 26</sub>  
-<sub>matches AI Agents, LLMs, Python; stretches into Evals</sub>
+**4. [Solutions Integration Engineer III](https://www.samsara.com/company/careers/roles/8172413?gh_jid=8172413)** — Samsara  
+<sub>Remote · $87,465–$117,600 · gtm / mid · score 26</sub>  
+<sub>matches AI Agents, AWS, LLMs, Prompt Engineering, Python, SQL; stretches into TypeScript; $87,465-$117,600</sub>
 
-**5. [Senior AI Engineer – Notebooks](https://careers.datadoghq.com/detail/8188027/?gh_jid=8188027)** — Datadog  
-<sub>Remote · ml-ai / senior · score 26</sub>  
-<sub>matches AI Agents, LLMs, Python; stretches into Evals</sub>
+**5. [Developer Support Engineer (London)](https://jobs.ashbyhq.com/braintrust/8eab6b79-6c58-4a17-b93e-4b9fc5cbfbb5)** — Braintrust  
+<sub>Remote · swe / mid · score 26</sub>  
+<sub>matches LLMs, Machine Learning, Prompt Engineering, Python; stretches into Kubernetes, TypeScript</sub>
 
-**6. [Machine Learning Engineer / ML Engineer - Roleplay Sessions](https://jobs.ashbyhq.com/synthesia/637a0f3b-fd23-409a-b66b-917d1411d56e)** — Synthesia  
-<sub>Remote · ml-ai / mid · score 24</sub>  
-<sub>matches AI Agents, LLMs, Machine Learning</sub>
+**6. [Senior Machine Learning Operations Engineer](https://job-boards.greenhouse.io/mercury/jobs/6186862004)** — Mercury  
+<sub>Remote · $166,600–$208,300 · ops / senior · score 26</sub>  
+<sub>matches CI/CD, Machine Learning, Python, SQL; stretches into MLOps, TypeScript; $166,600-$208,300</sub>
 
-**7. [Software Engineer, Distributed Systems - Trust & Safety](https://jobs.ashbyhq.com/gamma/1d76bf68-c948-4594-a6f5-b836eaf33c4b)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 24</sub>  
-<sub>matches AWS, LLMs, Python; stretches into TypeScript; $180,000-$310,000</sub>
+**7. [Abuse Research Engineer](https://stripe.com/jobs/search?gh_jid=8172503)** — Stripe  
+<sub>Remote · research / mid · score 26</sub>  
+<sub>matches AI Agents, Data Pipelines, LLMs, Python, SQL</sub>
 
-**8. [Software Engineer, Full Stack](https://jobs.ashbyhq.com/gamma/ea5b9809-4fc2-4ea0-b559-a25208c50a6b)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 24</sub>  
-<sub>matches LLMs, Machine Learning, Prompt Engineering; stretches into TypeScript; $180,000-$310,000</sub>
+**8. [Full-Stack Engineer - Creative Studio](https://jobs.ashbyhq.com/elevenlabs/17c06970-0b47-43bc-beb7-ce34cc98f93c)** — ElevenLabs  
+<sub>Remote · swe / mid · score 22</sub>  
+<sub>matches AI Agents, Machine Learning, Python; stretches into TypeScript</sub>
 
-**9. [Site Reliability Engineer](https://jobs.ashbyhq.com/gamma/365c8133-e9c1-4bcb-b8f1-975d96115503)** — Gamma  
-<sub>Remote · $230,000–$310,000 · infra / mid · score 22</sub>  
-<sub>matches AWS, Python; stretches into Kubernetes, TypeScript; $230,000-$310,000</sub>
+**9. [Platform Support Engineer (Singapore)](https://jobs.ashbyhq.com/braintrust/5430b8aa-f294-47fa-a79a-c9ce24b4a221)** — Braintrust  
+<sub>Remote · other / mid · score 20</sub>  
+<sub>matches AWS, LLMs, Machine Learning, Python; stretches into Kubernetes, TypeScript</sub>
 
-**10. [Research Engineer, Takeoff Intel](https://job-boards.greenhouse.io/anthropic/jobs/5416882008)** — Anthropic  
-<sub>Remote · $350,000–$850,000 · research / mid · score 20</sub>  
-<sub>matches LLMs, Machine Learning; stretches into Evals; $350,000-$850,000</sub>
+**10. [Senior Software Engineer, Core Infra Systems](https://www.coinbase.com/careers/positions/8172100?gh_jid=8172100)** — Coinbase  
+<sub>Remote · $186,065–$218,900 · swe / senior · score 19</sub>  
+<sub>matches AWS, Python; $186,065-$218,900</sub>
 
-**11. [Software Engineer, Trust & Safety](https://jobs.ashbyhq.com/gamma/76767d60-e375-456d-a195-984854b256ce)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 20</sub>  
-<sub>matches AWS, LLMs; stretches into TypeScript; $180,000-$310,000</sub>
+**11. [Software Engineer II, - Ads](https://instacart.careers/job/?gh_jid=8188987)** — Instacart  
+<sub>Remote · $145,000–$153,000 · swe / mid · score 19</sub>  
+<sub>matches AWS, Python; $145,000-$153,000</sub>
 
-**12. [Solutions Architect - Digital Native Business (Healthtech)](https://databricks.com/company/careers/open-positions/job?gh_jid=8782711002)** — Databricks  
-<sub>Remote · $180,000–$247,500 · gtm / mid · score 19</sub>  
-<sub>matches AWS, Machine Learning, Python, SQL; $180,000-$247,500</sub>
+**12. [Senior Software Engineer, Enterprise Commerce – Data (SFCC)](https://job-boards.greenhouse.io/algolia/jobs/6149054004)** — Algolia  
+<sub>Remote · $163,000–$214,000 · swe / senior · score 18</sub>  
+<sub>stretches into TypeScript; $163,000-$214,000</sub>
 
-**13. [Founding Forward Deployed Engineer](https://www.alloy.com/about/jobs/detail?gh_jid=8610085002&gh_jid=8610085002)** — Alloy  
-<sub>Remote · $141,000–$250,000 · other / mid · score 18</sub>  
-<sub>matches AWS, Python; stretches into TypeScript; $141,000-$250,000</sub>
+**13. [Staff Backend Engineer, Database Automation (Go)](https://job-boards.greenhouse.io/gitlab/jobs/8770702002)** — GitLab  
+<sub>Remote · $152,800–$259,200 · swe / staff · score 18</sub>  
+<sub>matches AI Agents, SQL; stretches into Kubernetes; $152,800-$259,200</sub>
 
-**14. [Forward Deployed Engineer - Software Engineer - North America](https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6)** — ElevenLabs  
-<sub>Remote · swe / mid · score 18</sub>  
-<sub>matches Python</sub>
+**14. [Senior Backend Engineer, Database Excellence (Ruby)](https://job-boards.greenhouse.io/gitlab/jobs/8778943002)** — GitLab  
+<sub>Remote · swe / senior · score 18</sub>  
+<sub>matches SQL</sub>
 
-**15. [Research Engineer](https://jobs.ashbyhq.com/gamma/8932c415-e921-4d2f-80ea-e3b6dea6be96)** — Gamma  
-<sub>Remote · $180,000–$340,000 · research / mid · score 18</sub>  
-<sub>matches Machine Learning; stretches into Evals; $180,000-$340,000</sub>
+**15. [Staff Software Engineer - DevX](https://job-boards.greenhouse.io/amplitude/jobs/8709009002)** — Amplitude  
+<sub>Remote · $173,000–$238,000 · swe / staff · score 18</sub>  
+<sub>matches AI Agents, CI/CD, LLMs; stretches into Evals; $173,000-$238,000</sub>
 
-**16. [Global Solutions Architect](https://www.rubrik.com/company/careers/departments/job.8140609?gh_jid=8140609)** — Rubrik  
-<sub>Remote · $231,200–$324,000 · gtm / mid · score 18</sub>  
-<sub>matches AWS, CI/CD, Python; stretches into Kubernetes; $231,200-$324,000</sub>
+**16. [HPC Storage Engineer - West Coast](https://jobs.ashbyhq.com/runpod/f6e84752-4d77-4a93-ae5d-dcd4911df710)** — RunPod  
+<sub>Remote · $180,000–$260,000 · other / mid · score 18</sub>  
+<sub>matches AWS, Machine Learning, Python; stretches into Kubernetes; $180,000-$260,000</sub>
 
-**17. [Software Engineer, Data Systems](https://jobs.ashbyhq.com/gamma/4b2c97d1-b12b-46b7-9e24-1fcd248e28a3)** — Gamma  
-<sub>Remote · $230,000–$310,000 · swe / mid · score 17</sub>  
-<sub>$230,000-$310,000</sub>
+**17. [Intermediate Security Engineer, Security Incident Response Team (SIRT)](https://job-boards.greenhouse.io/gitlab/jobs/8782306002)** — GitLab  
+<sub>Remote · infra / mid · score 17</sub>  
+<sub>matches AWS, Python</sub>
 
-**18. [Staff Data Engineer](https://jobs.ashbyhq.com/prefect/85e3149e-950b-4813-ad66-023093621399)** — Prefect  
-<sub>Remote · $191,000–$276,000 · data / staff · score 17</sub>  
-<sub>matches AWS, Data Pipelines; $191,000-$276,000</sub>
+**18. [Senior Financial Data Reconciliation Analyst](https://job-boards.greenhouse.io/mercury/jobs/6186428004)** — Mercury  
+<sub>Remote · $171,000–$213,700 · ops / senior · score 17</sub>  
+<sub>matches Data Pipelines, SQL; $171,000-$213,700</sub>
 
-**19. [Software Engineer, Distributed Systems - Infra](https://jobs.ashbyhq.com/gamma/5902d0ff-c12b-4506-8ef4-ac441a1a156e)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 16</sub>  
-<sub>matches Python; $180,000-$310,000</sub>
+**19. [Security Engineer](https://stripe.com/jobs/search?gh_jid=8174965)** — Stripe  
+<sub>Remote · infra / mid · score 17</sub>  
+<sub>matches Python, SQL</sub>
 
-**20. [Software Engineer, Platform](https://jobs.ashbyhq.com/gamma/fb12356a-e868-4a4a-801c-882a6b0ac83f)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 16</sub>  
-<sub>matches Python; $180,000-$310,000</sub>
+**20. [Staff Solutions Architect](https://www.fivetran.com/careers/job?gh_jid=7989613003)** — Fivetran  
+<sub>Remote · $197,512–$246,890 · gtm / staff · score 16</sub>  
+<sub>matches AI Agents, AWS, Data Pipelines, Python, SQL; $197,512-$246,890</sub>
 
-**21. [Senior Business Analyst, Revenue Analytics](https://job-boards.greenhouse.io/reddit/jobs/8023563)** — Reddit  
-<sub>Remote · $167,500–$234,500 · gtm / senior · score 16</sub>  
-<sub>matches AI Agents, Data Pipelines, SQL; $167,500-$234,500</sub>
+**21. [Staff Software Engineer, Workflow Platform](https://www.pinterestcareers.com/jobs/?gh_jid=8157900)** — Pinterest  
+<sub>Remote · $177,185–$364,795 · swe / staff · score 16</sub>  
+<sub>matches AI Agents, Machine Learning, Python; $177,185-$364,795</sub>
 
-**22. [Software Engineer, Backend](https://jobs.ashbyhq.com/gamma/a546c0a8-4c8b-471c-909c-9c7b34d1f64d)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 14</sub>  
-<sub>stretches into TypeScript; $180,000-$310,000</sub>
+**22. [Senior AI Researcher](https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8188707)** — Recursion  
+<sub>Remote · research / senior · score 14</sub>  
+<sub>matches Machine Learning</sub>
 
-**23. [Software Engineer, Frontend](https://jobs.ashbyhq.com/gamma/a3ef1ab4-111e-4a9c-a367-59ae5ed06ca5)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 14</sub>  
-<sub>stretches into TypeScript; $180,000-$310,000</sub>
+**23. [Senior Software Engineer- Blockchain Network](https://www.coinbase.com/careers/positions/8094196?gh_jid=8094196)** — Coinbase  
+<sub>Remote · $186,065–$218,900 · swe / senior · score 13</sub>  
+<sub>$186,065-$218,900</sub>
 
-**24. [Software Engineer, Growth](https://jobs.ashbyhq.com/gamma/77de89fb-517c-48f0-9c18-546769aea3b8)** — Gamma  
-<sub>Remote · $180,000–$310,000 · swe / mid · score 14</sub>  
-<sub>stretches into TypeScript; $180,000-$310,000</sub>
+**24. [Senior Staff Software Engineer, Platform - IAM](https://www.coinbase.com/careers/positions/8155366?gh_jid=8155366)** — Coinbase  
+<sub>Remote · $253,895–$298,700 · swe / staff · score 13</sub>  
+<sub>matches AI Agents, AWS; $253,895-$298,700</sub>
 
-**25. [Senior Software Engineer - SRE](https://job-boards.greenhouse.io/mercury/jobs/6184992004)** — Mercury  
-<sub>Remote · $200,700–$250,900 · infra / senior · score 14</sub>  
-<sub>stretches into TypeScript; $200,700-$250,900</sub>
+**25. [Software Engineer, Developer Infrastructure](https://www.coinbase.com/careers/positions/7991839?gh_jid=7991839)** — Coinbase  
+<sub>Remote · $152,405–$179,300 · infra / mid · score 13</sub>  
+<sub>$152,405-$179,300</sub>
 
 ---
 <sub>Ranked by overlap with `config/profile.json`. Edit that file to change what surfaces here.</sub>
