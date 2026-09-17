@@ -1,104 +1,106 @@
-## 25 new roles worth a look — 2026-09-16
+## 25 new roles worth a look — 2026-09-17
 
-_Scored against 65 postings that appeared today._
+_Scored against 45 postings that appeared today._
 
-**1. [Software Engineer - Backend - Behavioral Security Products](https://abnormal.ai/careers/jobs/7995027003?gh_jid=7995027003)** — Abnormal Security  
-<sub>Remote · swe / mid · score 30</sub>  
-<sub>matches AI Agents, AWS, LLMs, Machine Learning, Prompt Engineering, Python; stretches into Kubernetes</sub>
+**1. [Machine Learning Engineer II - Behavioral Security Products](https://abnormal.ai/careers/jobs/7995019003?gh_jid=7995019003)** — Abnormal Security  
+<sub>Remote · ml-ai / mid · score 32</sub>  
+<sub>matches AWS, LLMs, Machine Learning, Python, SQL; stretches into MLOps</sub>
 
-**2. [Staff Application Security Engineer](https://www.samsara.com/company/careers/roles/8205139?gh_jid=8205139)** — Samsara  
-<sub>Remote · $165,200–$295,000 · infra / staff · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; stretches into TypeScript; $165,200-$295,000</sub>
+**2. [Senior Data Scientist, Product](https://www.coinbase.com/careers/positions/8206668?gh_jid=8206668)** — Coinbase  
+<sub>Remote · data / senior · score 24</sub>  
+<sub>matches Data Pipelines, Python, SQL</sub>
 
-**3. [Staff Application Security Engineer](https://www.samsara.com/company/careers/roles/8205146?gh_jid=8205146)** — Samsara  
-<sub>Remote · $165,200–$295,000 · infra / staff · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; stretches into TypeScript; $165,200-$295,000</sub>
+**3. [Sr. Solutions Architect - Digital Native Business (Strategic Accounts)](https://databricks.com/company/careers/open-positions/job?gh_jid=8567963002)** — Databricks  
+<sub>Remote · $219,100–$301,300 · gtm / senior · score 19</sub>  
+<sub>matches AWS, Machine Learning, Python, SQL; $219,100-$301,300</sub>
 
-**4. [Staff Application Security Engineer](https://www.samsara.com/company/careers/roles/8205149?gh_jid=8205149)** — Samsara  
-<sub>Remote · $165,200–$295,000 · infra / staff · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; stretches into TypeScript; $165,200-$295,000</sub>
+**4. [Senior Software Engineer, Consumer Engineering](https://job-boards.greenhouse.io/reddit/jobs/8187247)** — Reddit  
+<sub>Remote · $190,000–$267,000 · swe / senior · score 19</sub>  
+<sub>matches Machine Learning, Python; $190,000-$267,000</sub>
 
-**5. [Staff Application Security Engineer](https://www.samsara.com/company/careers/roles/8205118?gh_jid=8205118)** — Samsara  
-<sub>Remote · $165,200–$295,000 · infra / staff · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; stretches into TypeScript; $165,200-$295,000</sub>
+**5. [Software Engineer, Consumer Engineering](https://job-boards.greenhouse.io/reddit/jobs/8172457)** — Reddit  
+<sub>Remote · $164,000–$229,000 · swe / mid · score 19</sub>  
+<sub>matches Machine Learning, Python; $164,000-$229,000</sub>
 
-**6. [Senior Software Engineer II, Developer Experience](https://instacart.careers/job/?gh_jid=8204016)** — Instacart  
-<sub>Remote · $196,000–$207,000 · swe / senior · score 22</sub>  
-<sub>matches CI/CD, Python; stretches into Kubernetes, TypeScript; $196,000-$207,000</sub>
-
-**7. [Senior Staff Machine Learning Engineer, Ads Ranking](https://job-boards.greenhouse.io/reddit/jobs/8201359)** — Reddit  
-<sub>Remote · $292,500–$409,500 · ml-ai / staff · score 22</sub>  
-<sub>matches AI Agents, Machine Learning, Python; stretches into Evals; $292,500-$409,500</sub>
-
-**8. [Staff Software Engineer - Ingestion Platform](https://job-boards.greenhouse.io/reddit/jobs/8205402)** — Reddit  
-<sub>Remote · $217,000–$303,900 · swe / staff · score 20</sub>  
-<sub>matches AWS, Data Pipelines, Machine Learning, Python; stretches into Kubernetes; $217,000-$303,900</sub>
-
-**9. [Senior Solution Engineer, Financial Services](https://jobs.ashbyhq.com/snowflake/0e1ea0b0-bf78-46e6-94d4-673d586271a1)** — Snowflake  
+**6. [Senior Solution Engineer, Retail & Consumer Goods](https://jobs.ashbyhq.com/snowflake/23e604d6-991a-49f8-8ab3-44966a5e131a)** — Snowflake  
 <sub>Remote · $165,000–$216,562 · other / senior · score 19</sub>  
 <sub>matches Data Pipelines, Machine Learning, Python, SQL; $165,000-$216,562</sub>
 
-**10. [Partner Solutions Architect (EMEA)](https://careers.datadoghq.com/detail/8204056/?gh_jid=8204056)** — Datadog  
-<sub>Remote · gtm / mid · score 14</sub>  
-<sub>matches AWS, Python; stretches into Kubernetes, TypeScript</sub>
+**7. [Staff Frontend Engineer - Grafana DataViz | Canada | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6194971004)** — Grafana Labs  
+<sub>Remote · $186,368–$223,642 · swe / staff · score 16</sub>  
+<sub>matches LLMs; stretches into TypeScript; $186,368-$223,642</sub>
 
-**11. [Senior Distribution Engineer, Gitlab: Build](https://job-boards.greenhouse.io/gitlab/jobs/8802261002)** — GitLab  
-<sub>Remote · other / senior · score 14</sub>  
-<sub>matches AWS, CI/CD, Python</sub>
+**8. [Staff Frontend Engineer - Grafana DataViz | US | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6194871004)** — Grafana Labs  
+<sub>Remote · $174,986–$209,983 · swe / staff · score 16</sub>  
+<sub>matches LLMs; stretches into TypeScript; $174,986-$209,983</sub>
 
-**12. [Product Manager II, Growth - Notifications](https://www.coinbase.com/careers/positions/8204571?gh_jid=8204571)** — Coinbase  
-<sub>Remote · $180,370–$212,200 · product / mid · score 13</sub>  
-<sub>matches Machine Learning, SQL; $180,370-$212,200</sub>
+**9. [Staff Machine Learning Engineer, Retrieval](https://job-boards.greenhouse.io/reddit/jobs/8178085)** — Reddit  
+<sub>Remote · $230,000–$322,000 · ml-ai / staff · score 16</sub>  
+<sub>matches Machine Learning; stretches into PyTorch; $230,000-$322,000</sub>
 
-**13. [Staff Software Engineer, Consumer Engineering](https://job-boards.greenhouse.io/reddit/jobs/8205702)** — Reddit  
-<sub>Remote · $217,000–$303,000 · swe / staff · score 13</sub>  
-<sub>matches Machine Learning, Python; $217,000-$303,000</sub>
+**10. [Manager of Managers, Marketing Data Science](https://stripe.com/jobs/search?gh_jid=8189012)** — Stripe  
+<sub>Remote · gtm / mid · score 15</sub>  
+<sub>matches Python, SQL</sub>
 
-**14. [Software Engineer](https://www.coinbase.com/careers/positions/8207374?gh_jid=8207374)** — Coinbase  
-<sub>Remote · swe / mid · score 11</sub>  
+**11. [Forward Deployed Creative Designer, Email](https://job-boards.greenhouse.io/hightouch/jobs/6195151004)** — Hightouch  
+<sub>Remote · $140,000–$180,000 · product / mid · score 14</sub>  
+<sub>matches AI Agents; $140,000-$180,000</sub>
 
-**15. [Solutions Engineer, Chicago (Enterprise)](https://cribl.io/job-detail/?gh_jid=6190446004)** — Cribl  
-<sub>Remote · $184,100–$240,000 · gtm / mid · score 11</sub>  
-<sub>$184,100-$240,000</sub>
+**12. [Member of the Technical Staff - Data Platform](https://job-boards.greenhouse.io/vercel/jobs/6188400004)** — Vercel  
+<sub>Remote · $232,000–$348,000 · other / staff · score 14</sub>  
+<sub>matches AWS, Data Pipelines, Machine Learning; $232,000-$348,000</sub>
 
-**16. [Data Center Shell Planning Lead, Industrial Compute](https://jobs.ashbyhq.com/openai/5a647e2b-5d6c-4c71-aeea-b16e3fda4b3f)** — OpenAI  
-<sub>Remote · $225,000–$285,000 · other / mid · score 11</sub>  
-<sub>$225,000-$285,000</sub>
+**13. [Senior Staff Software Engineer, Trust](https://careers.airbnb.com/positions/7818982?gh_jid=7818982)** — Airbnb  
+<sub>Remote · $248,000–$310,000 · swe / staff · score 13</sub>  
+<sub>matches LLMs, Machine Learning; $248,000-$310,000</sub>
 
-**17. [Staff Software Engineer (Malware Detection)](https://job-boards.greenhouse.io/chainguard/jobs/4713466006)** — Chainguard  
-<sub>Remote · $170,000–$231,000 · swe / staff · score 10</sub>  
-<sub>matches AI Agents; $170,000-$231,000</sub>
+**14. [Senior Onchain Investigator](https://www.coinbase.com/careers/positions/8051513?gh_jid=8051513)** — Coinbase  
+<sub>Remote · $180,370–$212,200 · other / senior · score 13</sub>  
+<sub>matches Python, SQL; $180,370-$212,200</sub>
 
-**18. [Solutions Architect - West](https://job-boards.greenhouse.io/gitlab/jobs/8790317002)** — GitLab  
-<sub>Remote · $103,650–$197,550 · gtm / mid · score 10</sub>  
-<sub>matches CI/CD; $103,650-$197,550</sub>
+**15. [Senior Threat Intelligence Engineer](https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803)** — Coinbase  
+<sub>Remote · $180,370–$212,200 · other / senior · score 13</sub>  
+<sub>matches Python, SQL; $180,370-$212,200</sub>
 
-**19. [Staff Qualitative UX Researcher, Monetization](https://www.pinterestcareers.com/jobs/?gh_jid=7684577)** — Pinterest  
-<sub>Remote · $145,747–$300,067 · research / staff · score 10</sub>  
-<sub>matches LLMs; $145,747-$300,067</sub>
+**16. [FinOps Engineer](https://jobs.ashbyhq.com/supabase/fab1525f-3d89-4d1c-9094-84d21647415e)** — Supabase  
+<sub>Remote · other / mid · score 11</sub>  
+<sub>matches AWS, Python</sub>
 
-**20. [Design Engineer (Web & Brand)](https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8)** — Linear  
-<sub>Remote · product / mid · score 10</sub>  
-<sub>matches AI Agents; stretches into TypeScript</sub>
+**17. [Revenue Operations Manager](https://jobs.ashbyhq.com/abridge/1bff8d14-d779-4e7b-9e11-01a57e0979c4)** — Abridge  
+<sub>Remote · $143,650–$194,040 · gtm / mid · score 10</sub>  
+<sub>matches SQL; $143,650-$194,040</sub>
 
-**21. [Design Engineer (Web & Brand)](https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6)** — Linear  
-<sub>Remote · product / mid · score 10</sub>  
-<sub>matches AI Agents; stretches into TypeScript</sub>
+**18. [Staff Network Engineer](https://www.agilityrobotics.com/about/job-post?gh_jid=6190427004)** — Agility Robotics  
+<sub>Remote · $181,000–$282,000 · infra / staff · score 10</sub>  
+<sub>matches AWS; $181,000-$282,000</sub>
 
-**22. [Senior Solutions Engineer | Preference for Mumbai, India](https://job-boards.greenhouse.io/grafanalabs/jobs/6191204004)** — Grafana Labs  
-<sub>Remote · gtm / senior · score 9</sub>  
+**19. [Finance Manager I, Platform](https://www.pinterestcareers.com/jobs/?gh_jid=8189872)** — Pinterest  
+<sub>Remote · $98,561–$202,918 · ops / mid · score 10</sub>  
+<sub>matches AWS; $98,561-$202,918</sub>
 
-**23. [Design Engineer](https://job-boards.greenhouse.io/vercel/jobs/6129441004)** — Vercel  
-<sub>Remote · $208,000–$312,000 · product / mid · score 8</sub>  
-<sub>stretches into TypeScript; $208,000-$312,000</sub>
+**20. [Partner Sales manager](https://jobs.ashbyhq.com/redis/e305fc8c-a434-4d46-8ede-5e8c430f232d)** — Redis  
+<sub>Remote · $155,000–$194,000 · gtm / mid · score 10</sub>  
+<sub>matches AWS; $155,000-$194,000</sub>
 
-**24. [Enterprise Business Development Representative - Central](https://job-boards.greenhouse.io/chainguard/jobs/4713208006)** — Chainguard  
+**21. [Account Manager](https://jobs.ashbyhq.com/modal/d33a46c8-44d8-4bf4-bdca-dd11c0a48588)** — Modal  
 <sub>Remote · gtm / mid · score 8</sub>  
-<sub>matches CI/CD</sub>
+<sub>matches Machine Learning</sub>
 
-**25. [Staff Software Engineer (Malware Detection)](https://job-boards.greenhouse.io/chainguard/jobs/4713469006)** — Chainguard  
-<sub>Remote · swe / staff · score 8</sub>  
-<sub>matches AI Agents</sub>
+**22. [Recruiting Operations Manager](https://job-boards.greenhouse.io/chainguard/jobs/4649103006)** — Chainguard  
+<sub>Remote · $140,000–$165,000 · gtm / mid · score 7</sub>  
+<sub>$140,000-$165,000</sub>
+
+**23. [Strategy & Operation Sr Manager](https://cribl.io/job-detail/?gh_jid=6188442004)** — Cribl  
+<sub>Remote · $180,000–$240,000 · other / senior · score 7</sub>  
+<sub>$180,000-$240,000</sub>
+
+**24. [Associate Revenue Operations Analyst, Policy & Rules of Engagement](https://job-boards.greenhouse.io/gitlab/jobs/8808115002)** — GitLab  
+<sub>Remote · $71,200–$121,200 · gtm / entry · score 7</sub>  
+<sub>$71,200-$121,200</sub>
+
+**25. [Senior Enterprise Account Executive, Acquisition | West | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6147435004)** — Grafana Labs  
+<sub>Remote · $260,000–$300,000 · gtm / senior · score 7</sub>  
+<sub>$260,000-$300,000</sub>
 
 ---
 <sub>Ranked by overlap with `config/profile.json`. Edit that file to change what surfaces here.</sub>
