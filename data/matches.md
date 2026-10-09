@@ -1,105 +1,102 @@
-## 25 new roles worth a look — 2026-10-08
+## 25 new roles worth a look — 2026-10-09
 
-_Scored against 59 postings that appeared today._
+_Scored against 56 postings that appeared today._
 
-**1. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8262123?gh_jid=8262123)** — Samsara  
-<sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
-<sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
+**1. [Customer Support Developer (Databases)](https://jobs.ashbyhq.com/airbyte/9d81a132-966b-4f37-b198-d950e23a7765)** — Airbyte  
+<sub>Remote · $99,000–$115,000 · swe / mid · score 30</sub>  
+<sub>matches AWS, CI/CD, Data Pipelines, SQL; stretches into Kubernetes; $99,000-$115,000</sub>
 
-**2. [Senior CX Platform Engineer](https://job-boards.greenhouse.io/gitlab/jobs/8871406002)** — GitLab  
-<sub>Remote · $139,200–$235,200 · infra / senior · score 30</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python; stretches into TypeScript; $139,200-$235,200</sub>
+**2. [Software Engineer, Inference](https://jobs.ashbyhq.com/lumaai/d0f68f86-1ec2-4443-a730-0d8f68842545)** — Luma AI  
+<sub>Remote · swe / mid · score 30</sub>  
+<sub>matches AWS, CI/CD, LLMs, Machine Learning, Python; stretches into Kubernetes, MLOps, PyTorch</sub>
 
-**3. [Senior Product Security Engineer](https://job-boards.greenhouse.io/chainguard/jobs/4716922006)** — Chainguard  
-<sub>Remote · $157,000–$184,000 · infra / senior · score 24</sub>  
-<sub>matches AWS, CI/CD, Python; stretches into Kubernetes; $157,000-$184,000</sub>
+**3. [Forward Deployed Researcher - Data as a Service](https://job-boards.greenhouse.io/snorkelai/jobs/5811245004)** — Snorkel AI  
+<sub>Remote · $180,000–$300,000 · research / mid · score 30</sub>  
+<sub>matches Data Pipelines, LLMs, Machine Learning, Python; stretches into Evals; $180,000-$300,000</sub>
 
-**4. [Senior Security Detection Engineer](https://job-boards.greenhouse.io/gitlab/jobs/8868138002)** — GitLab  
-<sub>Remote · $139,200–$190,000 · ops / senior · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, Data Pipelines, LLMs; stretches into Kubernetes; $139,200-$190,000</sub>
+**4. [Customer Support Developer (Databases)](https://jobs.ashbyhq.com/airbyte/1a29f42d-e446-4ea0-a4f6-c3886e71ba7d)** — Airbyte  
+<sub>Remote · swe / mid · score 28</sub>  
+<sub>matches AWS, CI/CD, Data Pipelines, SQL; stretches into Kubernetes</sub>
 
-**5. [Senior Threat Detection Engineer](https://cribl.io/job-detail/?gh_jid=6217897004)** — Cribl  
-<sub>Remote · $108,000–$169,000 · other / senior · score 22</sub>  
-<sub>matches AI Agents, AWS, CI/CD, Data Pipelines, Python; $108,000-$169,000</sub>
+**5. [Forward Deployed Engineer](https://databricks.com/company/careers/open-positions/job?gh_jid=8771566002)** — Databricks  
+<sub>Remote · ops / mid · score 27</sub>  
+<sub>matches AWS, CI/CD, Data Pipelines, Machine Learning, Python; stretches into MLOps, TypeScript</sub>
 
-**6. [Solutions Architect - Digital Native Business (Fintech)](https://databricks.com/company/careers/open-positions/job?gh_jid=8862137002)** — Databricks  
-<sub>Remote · $180,000–$247,500 · gtm / mid · score 19</sub>  
-<sub>matches AWS, Machine Learning, Python, SQL; $180,000-$247,500</sub>
+**6. [Sr Offensive AI Security Engineer II](https://www.samsara.com/company/careers/roles/8264748?gh_jid=8264748)** — Samsara  
+<sub>Remote · $157,675–$238,500 · ml-ai / senior · score 26</sub>  
+<sub>matches AI Agents, AWS, LLMs, RAG; stretches into Evals; $157,675-$238,500</sub>
 
-**7. [Senior Frontend Engineer, AI Observability & Evals Platform](https://jobs.ashbyhq.com/langchain/afb91b9b-46d5-4c9d-aa84-a4f1a3f74263)** — LangChain  
-<sub>Remote · $180,000–$240,000 · swe / senior · score 19</sub>  
-<sub>matches LLMs; stretches into Evals, TypeScript; $180,000-$240,000</sub>
+**7. [Senior Software Engineer, Backend/Fullstack (Coinbase Advisor - Agentic Trading)](https://www.coinbase.com/careers/positions/8174232?gh_jid=8174232)** — Coinbase  
+<sub>Remote · $186,065–$218,900 · swe / senior · score 24</sub>  
+<sub>matches AI Agents, LLMs, Prompt Engineering; stretches into Evals; $186,065-$218,900</sub>
 
-**8. [Staff+ Software Engineer, Research Systems Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5447118008)** — Anthropic  
-<sub>Remote · $320,000–$485,000 · infra / staff · score 18</sub>  
-<sub>matches AWS, Machine Learning, Python; stretches into Kubernetes; $320,000-$485,000</sub>
+**8. [Research Scientist / Engineer – Reinforcement Learning Infrastructure](https://jobs.ashbyhq.com/lumaai/3abaffc4-01f1-4d72-b20d-4c8474d8cc80)** — Luma AI  
+<sub>Remote · research / mid · score 23</sub>  
+<sub>matches AI Agents, LLMs; stretches into Evals, Kubernetes, MLOps, PyTorch</sub>
 
-**9. [Senior Backend Engineer, Core DevOps](https://job-boards.greenhouse.io/gitlab/jobs/8689243002)** — GitLab  
-<sub>Remote · infra / senior · score 17</sub>  
-<sub>matches AI Agents, Prompt Engineering</sub>
+**9. [Software Engineer](https://www.coinbase.com/careers/positions/8003605?gh_jid=8003605)** — Coinbase  
+<sub>Remote · $152,405–$179,300 · swe / mid · score 20</sub>  
+<sub>matches AWS, Python; stretches into Kubernetes; $152,405-$179,300</sub>
 
-**10. [Senior Backend Engineer, Core DevOps: Container Registry](https://job-boards.greenhouse.io/gitlab/jobs/8687958002)** — GitLab  
-<sub>Remote · infra / senior · score 17</sub>  
-<sub>matches AI Agents, Prompt Engineering</sub>
+**10. [Staff Machine Learning Engineer, Content Visual AI](https://www.pinterestcareers.com/jobs/?gh_jid=8247246)** — Pinterest  
+<sub>Remote · $189,308–$389,753 · ml-ai / staff · score 20</sub>  
+<sub>matches Data Pipelines, LLMs, Machine Learning; $189,308-$389,753</sub>
 
-**11. [Team Lead, Human Data Operations - Vision, Image & Video](https://job-boards.greenhouse.io/xai/jobs/5259600007)** — xAI  
-<sub>Remote · $104,000–$156,000 · ops / mid · score 17</sub>  
-<sub>matches Machine Learning, SQL; $104,000-$156,000</sub>
+**11. [Infrastructure Engineer](https://jobs.ashbyhq.com/elevenlabs/31a6f0f4-8e1d-4d77-9d00-026ed12213f2)** — ElevenLabs  
+<sub>Remote · infra / mid · score 18</sub>  
+<sub>matches Machine Learning, Python; stretches into Kubernetes</sub>
 
-**12. [Senior Product Security Engineer - AI Agents](https://careers.datadoghq.com/detail/7993198/?gh_jid=7993198)** — Datadog  
-<sub>Remote · $192,000–$240,000 · infra / senior · score 16</sub>  
-<sub>matches AI Agents; $192,000-$240,000</sub>
+**12. [Staff Software Engineer, Enterprise Platform](https://job-boards.greenhouse.io/discord/jobs/8675185002)** — Discord  
+<sub>Remote · $248,000–$279,000 · swe / staff · score 14</sub>  
+<sub>matches CI/CD, Python; stretches into TypeScript; $248,000-$279,000</sub>
 
-**13. [Member of Technical Staff - SDK](https://jobs.ashbyhq.com/modal/265d6127-dd34-433b-819a-1f935572c7d8)** — Modal  
-<sub>Remote · $150,000–$350,000 · research / staff · score 16</sub>  
-<sub>matches AI Agents, Machine Learning, Python; $150,000-$350,000</sub>
+**13. [Senior Engineering Manager](https://www.coinbase.com/careers/positions/8265918?gh_jid=8265918)** — Coinbase  
+<sub>Remote · swe / senior · score 14</sub>  
+<sub>matches Data Pipelines</sub>
 
-**14. [Research Scientist / Engineer – Training Infrastructure](https://jobs.ashbyhq.com/lumaai/d94b1360-710c-4f3b-93a8-e4ac51591e9a)** — Luma AI  
-<sub>Remote · research / mid · score 16</sub>  
-<sub>matches LLMs; stretches into PyTorch</sub>
+**14. [Staff Security Engineer, Incident Response](https://databricks.com/company/careers/open-positions/job?gh_jid=8841960002)** — Databricks  
+<sub>Remote · infra / staff · score 14</sub>  
+<sub>matches AI Agents, AWS, LLMs</sub>
 
-**15. [Backend Engineer, Developer & End-user Experience Platform](https://stripe.com/jobs/search?gh_jid=7292520)** — Stripe  
-<sub>Remote · swe / mid · score 16</sub>  
-<sub>matches AWS; stretches into Kubernetes</sub>
+**15. [Cloud Platform Engineer](https://jobs.ashbyhq.com/supabase/5d09daeb-2d7e-42de-9151-81a1341195c4)** — Supabase  
+<sub>Remote · infra / mid · score 14</sub>  
+<sub>matches AWS</sub>
 
-**16. [Senior Solutions Engineer - Central](https://job-boards.greenhouse.io/launchdarkly/jobs/8016088003)** — LaunchDarkly  
-<sub>Remote · $214,800–$295,350 · gtm / senior · score 14</sub>  
-<sub>matches AWS; $214,800-$295,350</sub>
-
-**17. [Senior Software Engineer - Treasury](https://job-boards.greenhouse.io/mercury/jobs/6212437004)** — Mercury  
-<sub>Remote · $166,600–$208,300 · swe / senior · score 13</sub>  
-<sub>$166,600-$208,300</sub>
-
-**18. [Research Scientist / Engineer – Performance Optimization](https://jobs.ashbyhq.com/lumaai/32e4a89b-1a6d-4e53-af6a-fde323db9022)** — Luma AI  
-<sub>Remote · research / mid · score 12</sub>  
-<sub>stretches into PyTorch</sub>
-
-**19. [Enterprise Sales Lead, Financial Services](https://jobs.ashbyhq.com/elevenlabs/7209ce9f-3c69-4dbb-adbb-6c6c068ebad0)** — ElevenLabs  
+**16. [Enterprise Account Executive - Financial Services](https://jobs.ashbyhq.com/elevenlabs/98f8ca46-95d1-40ad-8b41-f6d9c6860840)** — ElevenLabs  
 <sub>Remote · gtm / mid · score 11</sub>  
-<sub>matches AI Agents, Machine Learning</sub>
+<sub>matches AI Agents, LLMs</sub>
 
-**20. [Full-Stack Engineer (Backend Leaning) - CreativeVoices](https://jobs.ashbyhq.com/elevenlabs/77f23be6-16c0-40c5-87b6-29dc2ee752ab)** — ElevenLabs  
+**17. [Fullstack Engineer (Backend Leaning) - Flows](https://jobs.ashbyhq.com/elevenlabs/a1c86d02-e9df-4580-87e4-1333f2b83e94)** — ElevenLabs  
 <sub>Remote · swe / mid · score 11</sub>  
 
-**21. [Forward Deployed Creative [US]](https://jobs.ashbyhq.com/lumaai/cb69274a-7161-44e5-abda-4a12cca6e057)** — Luma AI  
-<sub>Remote · $145,000–$205,000 · gtm / mid · score 11</sub>  
-<sub>$145,000-$205,000</sub>
+**18. [Fullstack Engineer (Frontend Leaning) - Studio](https://jobs.ashbyhq.com/elevenlabs/e6924f60-c8cc-42b3-9d05-2442ec30e12d)** — ElevenLabs  
+<sub>Remote · swe / mid · score 11</sub>  
 
-**22. [Solutions Architect, Integrations (MENA)](https://jobs.ashbyhq.com/sardine/b5c94511-a534-4a9c-8b11-7dbf19f0fb22)** — Sardine  
-<sub>Remote · gtm / mid · score 11</sub>  
-<sub>matches Python, SQL</sub>
+**19. [Customer Solutions Engineer, EMEA](https://abnormal.ai/careers/jobs/8016898003?gh_jid=8016898003)** — Abnormal Security  
+<sub>Remote · gtm / mid · score 9</sub>  
 
-**23. [Sales Executive, Mid Market](https://instacart.careers/job/?gh_jid=8263161)** — Instacart  
-<sub>Remote · $96,000–$125,500 · gtm / mid · score 10</sub>  
-<sub>matches SQL; $96,000-$125,500</sub>
+**20. [Customer Solutions Engineer, EMEA](https://abnormal.ai/careers/jobs/8016874003?gh_jid=8016874003)** — Abnormal Security  
+<sub>Remote · gtm / mid · score 9</sub>  
 
-**24. [Enterprise Sales Lead - Healthcare](https://jobs.ashbyhq.com/elevenlabs/c4085864-14ca-4959-a3f8-3a4015c76eb5)** — ElevenLabs  
+**21. [Partnerships Strategy & Operations](https://jobs.ashbyhq.com/elevenlabs/36b52143-1ed2-4e60-89c4-84e09d856658)** — ElevenLabs  
 <sub>Remote · gtm / mid · score 8</sub>  
-<sub>matches Machine Learning</sub>
+<sub>matches SQL</sub>
 
-**25. [Senior Strategic Events Manager](https://abnormal.ai/careers/jobs/8005634003?gh_jid=8005634003)** — Abnormal Security  
-<sub>Remote · $118,600–$170,500 · other / senior · score 7</sub>  
-<sub>$118,600-$170,500</sub>
+**22. [Vertical Sales Strategy and Operations](https://jobs.ashbyhq.com/elevenlabs/03e6b7b2-3337-47ac-a230-2d8390a8cb4e)** — ElevenLabs  
+<sub>Remote · gtm / mid · score 8</sub>  
+<sub>matches SQL</sub>
+
+**23. [Solutions Architect, New Business, EMEA](https://job-boards.greenhouse.io/gitlab/jobs/8860267002)** — GitLab  
+<sub>Remote · gtm / mid · score 8</sub>  
+<sub>matches CI/CD</sub>
+
+**24. [Client Enablement Lead](https://www.alloy.com/about/jobs/detail?gh_jid=8880244002&gh_jid=8880244002)** — Alloy  
+<sub>Remote · $180,000–$220,000 · ops / mid · score 7</sub>  
+<sub>$180,000-$220,000</sub>
+
+**25. [SMB Account Executive, Growth](https://job-boards.greenhouse.io/gitlab/jobs/8871878002)** — GitLab  
+<sub>Remote · $61,920–$66,000 · gtm / mid · score 7</sub>  
+<sub>$61,920-$66,000</sub>
 
 ---
 <sub>Ranked by overlap with `config/profile.json`. Edit that file to change what surfaces here.</sub>
