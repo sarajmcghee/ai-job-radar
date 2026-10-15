@@ -1,106 +1,105 @@
-## 25 new roles worth a look — 2026-10-14
+## 25 new roles worth a look — 2026-10-15
 
-_Scored against 54 postings that appeared today._
+_Scored against 69 postings that appeared today._
 
-**1. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8280158?gh_jid=8280158)** — Samsara  
+**1. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281479?gh_jid=8281479)** — Samsara  
 <sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
 <sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**2. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8280137?gh_jid=8280137)** — Samsara  
+**2. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281489?gh_jid=8281489)** — Samsara  
 <sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
 <sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**3. [Senior Backend Engineer - Databases Tempo | Canada | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6223410004)** — Grafana Labs  
-<sub>Remote · $164,490–$197,389 · swe / senior · score 26</sub>  
-<sub>matches LLMs, SQL; stretches into Evals, Kubernetes; $164,490-$197,389</sub>
+**3. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281482?gh_jid=8281482)** — Samsara  
+<sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
+<sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**4. [Senior Fullstack Engineer - Grafana Data Source Plugins | NASA | (Remote, Canada)](https://job-boards.greenhouse.io/grafanalabs/jobs/6223972004)** — Grafana Labs  
-<sub>Remote · $164,490–$197,389 · swe / senior · score 26</sub>  
-<sub>matches AI Agents, AWS; stretches into Kubernetes, TypeScript; $164,490-$197,389</sub>
+**4. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281490?gh_jid=8281490)** — Samsara  
+<sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
+<sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**5. [Senior Fullstack Engineer - Grafana Data Source Plugins | NASA | (Remote, USA)](https://job-boards.greenhouse.io/grafanalabs/jobs/6223924004)** — Grafana Labs  
-<sub>Remote · $154,445–$185,334 · swe / senior · score 26</sub>  
-<sub>matches AI Agents, AWS; stretches into Kubernetes, TypeScript; $154,445-$185,334</sub>
+**5. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281491?gh_jid=8281491)** — Samsara  
+<sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
+<sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**6. [Operations Engineer, Tech Foundations](https://careers.airbnb.com/positions/8083137?gh_jid=8083137)** — Airbnb  
-<sub>Remote · ops / mid · score 24</sub>  
-<sub>matches AI Agents, AWS, CI/CD, LLMs, Python, SQL; stretches into TypeScript</sub>
+**6. [Senior AI Data & Analytics Engineer II](https://www.samsara.com/company/careers/roles/8281483?gh_jid=8281483)** — Samsara  
+<sub>Remote · $137,445–$231,000 · ml-ai / senior · score 35</sub>  
+<sub>matches AI Agents, Data Pipelines, LLMs, Machine Learning, Python, SQL; $137,445-$231,000</sub>
 
-**7. [Senior Backend Engineer - Databases Tempo | US | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6223411004)** — Grafana Labs  
-<sub>Remote · swe / senior · score 24</sub>  
-<sub>matches LLMs, SQL; stretches into Evals, Kubernetes</sub>
+**7. [Senior Software Engineer II, Ads Data Solutions Engineering](https://instacart.careers/job/?gh_jid=8281965)** — Instacart  
+<sub>Remote · $230,000–$242,500 · swe / senior · score 32</sub>  
+<sub>matches AWS, CI/CD, Data Pipelines, Python, SQL; $230,000-$242,500</sub>
 
-**8. [Senior Full-Stack Engineer, Cohere Dashboard](https://jobs.ashbyhq.com/cohere/7e0e08ed-4b12-4aaa-8dda-ad6292992061)** — Cohere  
-<sub>Remote · swe / senior · score 22</sub>  
-<sub>matches LLMs, Python, SQL; stretches into TypeScript</sub>
+**8. [FinOps Data Engineer](https://jobs.ashbyhq.com/supabase/73ddf93b-fe0c-455d-ba27-cdde0d3fb94f)** — Supabase  
+<sub>Remote · data / mid · score 27</sub>  
+<sub>matches AWS, Data Pipelines, Python, SQL</sub>
 
-**9. [Software Engineer, Enterprise Apps](https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479)** — Coinbase  
-<sub>Remote · swe / mid · score 20</sub>  
-<sub>matches AWS, CI/CD; stretches into Kubernetes, TypeScript</sub>
+**9. [Analytics Engineer](https://job-boards.greenhouse.io/reddit/jobs/8282760)** — Reddit  
+<sub>Remote · $164,200–$229,990 · data / mid · score 25</sub>  
+<sub>matches AI Agents, Data Pipelines, Python, SQL; $164,200-$229,990</sub>
 
-**10. [Technical Program Manager - Data Center Infrastructure Delivery](https://jobs.ashbyhq.com/lambda/9a8b0df2-63e0-4641-9503-59f56fbe195e)** — Lambda  
-<sub>Remote · $214,000–$284,000 · infra / mid · score 17</sub>  
-<sub>$214,000-$284,000</sub>
+**10. [Safety Engineer (Backnd Leaning)](https://jobs.ashbyhq.com/elevenlabs/a787e8ee-f1c4-422d-95f8-61ffd4eefb95)** — ElevenLabs  
+<sub>Remote · other / mid · score 24</sub>  
+<sub>matches AI Agents, AWS, CI/CD, LLMs, Machine Learning, Python; stretches into Kubernetes</sub>
 
-**11. [Platform Engineer - Compute](https://jobs.ashbyhq.com/supabase/6b314e83-6617-49fc-8c73-021ebae9a757)** — Supabase  
-<sub>Remote · infra / mid · score 17</sub>  
-<sub>matches AWS; stretches into Kubernetes, TypeScript</sub>
+**11. [Cloud Platform Engineer](https://job-boards.greenhouse.io/gitlab/jobs/8889193002)** — GitLab  
+<sub>Remote · $126,000–$213,000 · infra / mid · score 24</sub>  
+<sub>matches AWS, CI/CD, Python; stretches into Kubernetes; $126,000-$213,000</sub>
 
-**12. [Technical Program Manager (Software Engineer)](https://jobs.ashbyhq.com/runpod/06046760-4649-4821-acdf-0f89c54f88b8)** — RunPod  
-<sub>Remote · $140,000–$165,000 · swe / mid · score 16</sub>  
-<sub>matches Machine Learning; $140,000-$165,000</sub>
+**12. [Senior Application Security Engineer](https://jobs.ashbyhq.com/sardine/e4e52261-16bf-4285-aced-636fa7f6c28d)** — Sardine  
+<sub>Remote · $135,000–$180,000 · infra / senior · score 24</sub>  
+<sub>matches AWS, CI/CD, Python; stretches into Kubernetes; $135,000-$180,000</sub>
 
-**13. [Full-Stack Engineer (Backend Leaning) - Payments Engineering](https://jobs.ashbyhq.com/elevenlabs/e4e0450f-d139-4f8e-b210-2f326a680d90)** — ElevenLabs  
+**13. [Senior Machine Learning Systems Engineer, ML Platform](https://job-boards.greenhouse.io/reddit/jobs/8283770)** — Reddit  
+<sub>Remote · $216,700–$303,400 · infra / senior · score 20</sub>  
+<sub>matches Machine Learning; $216,700-$303,400</sub>
+
+**14. [Software Engineer - Backend](https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704)** — Sardine  
+<sub>Remote · swe / mid · score 18</sub>  
+<sub>matches Data Pipelines, Python; stretches into TypeScript</sub>
+
+**15. [Staff Machine Learning Engineer](https://www.pinterestcareers.com/jobs/?gh_jid=8015543)** — Pinterest  
+<sub>Remote · $227,871–$469,147 · ml-ai / staff · score 17</sub>  
+<sub>matches LLMs, Machine Learning; $227,871-$469,147</sub>
+
+**16. [Senior Partner Solutions Engineer | East Coast | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6222975004)** — Grafana Labs  
+<sub>Remote · $204,000–$244,000 · gtm / senior · score 16</sub>  
+<sub>matches AWS; stretches into Kubernetes; $204,000-$244,000</sub>
+
+**17. [Fullstack Engineer, Investigator Tools](https://jobs.ashbyhq.com/sardine/8e9d4ba5-92f9-48f4-925d-090fd5d6e303)** — Sardine  
 <sub>Remote · swe / mid · score 16</sub>  
-<sub>matches Python; stretches into Kubernetes</sub>
+<sub>matches Data Pipelines; stretches into TypeScript</sub>
 
-**14. [Full-Stack Engineer (Backend Leaning) - Platform Engineering](https://jobs.ashbyhq.com/elevenlabs/ce3d5a59-fb8c-482b-bc3f-60e44576c5e0)** — ElevenLabs  
-<sub>Remote · infra / mid · score 16</sub>  
-<sub>matches Python; stretches into Kubernetes</sub>
+**18. [Fullstack Engineer, Investigator Tools](https://jobs.ashbyhq.com/sardine/a29f881e-0256-4b63-91b8-ef7c9260255e)** — Sardine  
+<sub>Remote · swe / mid · score 16</sub>  
+<sub>matches Data Pipelines; stretches into TypeScript</sub>
 
-**15. [Deployment Strategist - South Korea](https://jobs.ashbyhq.com/elevenlabs/cfcb55a7-17ce-43b5-ad4e-2111adff393a)** — ElevenLabs  
-<sub>Remote · gtm / mid · score 14</sub>  
-<sub>matches AI Agents, LLMs, Python</sub>
+**19. [Fullstack Engineer, Investigator Tools](https://jobs.ashbyhq.com/sardine/5f63898a-6d71-4d60-815d-5ae7b9d2437d)** — Sardine  
+<sub>Remote · swe / mid · score 16</sub>  
+<sub>matches Data Pipelines; stretches into TypeScript</sub>
 
-**16. [GTM Lead System Administrator](https://jobs.ashbyhq.com/harvey/4167f471-715b-413b-86c5-0596aae42eb8)** — Harvey  
-<sub>Remote · $171,000–$235,200 · gtm / mid · score 13</sub>  
-<sub>matches Data Pipelines, SQL; $171,000-$235,200</sub>
+**20. [Security Analyst (Governance and Trust)](https://job-boards.greenhouse.io/chainguard/jobs/4716920006)** — Chainguard  
+<sub>Remote · $110,000–$130,000 · other / mid · score 13</sub>  
+<sub>matches AI Agents, Prompt Engineering; $110,000-$130,000</sub>
 
-**17. [Senior Software Engineer (Customer Platform)](https://job-boards.greenhouse.io/chainguard/jobs/4721595006)** — Chainguard  
-<sub>Remote · swe / senior · score 12</sub>  
-<sub>stretches into Kubernetes</sub>
+**21. [Manager II, Developer Advocacy](https://careers.datadoghq.com/detail/8282140/?gh_jid=8282140)** — Datadog  
+<sub>Remote · $212,000–$265,000 · swe / mid · score 13</sub>  
+<sub>$212,000-$265,000</sub>
 
-**18. [Staff Software Engineer (Customer Platform)](https://job-boards.greenhouse.io/chainguard/jobs/4720009006)** — Chainguard  
-<sub>Remote · $205,000–$231,000 · swe / staff · score 12</sub>  
-<sub>matches AI Agents; stretches into Kubernetes; $205,000-$231,000</sub>
+**22. [Senior Financial Insights Analyst](https://instacart.careers/job/?gh_jid=8282591)** — Instacart  
+<sub>Remote · $126,000–$133,000 · ops / senior · score 13</sub>  
+<sub>matches Python, SQL; $126,000-$133,000</sub>
 
-**19. [FP&A Lead](https://jobs.ashbyhq.com/elevenlabs/eec0ee0e-ad68-47af-a0a8-8d2191aee4ba)** — ElevenLabs  
-<sub>Remote · ops / mid · score 11</sub>  
-<sub>matches Data Pipelines, SQL</sub>
+**23. [Senior Financial Insights Analyst](https://instacart.careers/job/?gh_jid=8282526)** — Instacart  
+<sub>Remote · $152,000–$160,500 · ops / senior · score 13</sub>  
+<sub>matches Python, SQL; $152,000-$160,500</sub>
 
-**20. [Enterprise Account Executive](https://jobs.ashbyhq.com/benchling/a5480820-2059-4759-94b6-7246280c2c56)** — Benchling  
-<sub>Remote · $140,000–$200,000 · gtm / mid · score 10</sub>  
-<sub>matches AWS; $140,000-$200,000</sub>
+**24. [Security Analyst (Governance and Trust)](https://job-boards.greenhouse.io/chainguard/jobs/4722131006)** — Chainguard  
+<sub>Remote · other / mid · score 11</sub>  
+<sub>matches AI Agents, Prompt Engineering</sub>
 
-**21. [Partner Solutions Architect](https://www.fivetran.com/careers/job?gh_jid=8008322003)** — Fivetran  
-<sub>Remote · $218,487–$273,110 · gtm / mid · score 10</sub>  
-<sub>matches SQL; $218,487-$273,110</sub>
-
-**22. [Associate Product Operations Manager](https://instacart.careers/job/?gh_jid=8275378)** — Instacart  
-<sub>Remote · $98,000–$103,500 · ops / entry · score 10</sub>  
-<sub>matches SQL; $98,000-$103,500</sub>
-
-**23. [Associate Product Operations Manager](https://instacart.careers/job/?gh_jid=8275352)** — Instacart  
-<sub>Remote · $133,000–$140,500 · ops / entry · score 10</sub>  
-<sub>matches SQL; $133,000-$140,500</sub>
-
-**24. [Staff Software Engineer (Customer Platform)](https://job-boards.greenhouse.io/chainguard/jobs/4720007006)** — Chainguard  
-<sub>Remote · swe / staff · score 10</sub>  
-<sub>matches AI Agents; stretches into Kubernetes</sub>
-
-**25. [Member of Technical Staff - Post-Training (Reinforcement Learning & Generalization)](https://jobs.ashbyhq.com/cohere/8a73f59d-41b7-42ed-8cc8-99afa0a2ba5f)** — Cohere  
-<sub>Remote · research / staff · score 10</sub>  
-<sub>matches LLMs; stretches into PyTorch</sub>
+**25. [Developer Advocate](https://jobs.ashbyhq.com/elevenlabs/969bbf7d-037c-4965-812e-442105ce58c1)** — ElevenLabs  
+<sub>Remote · swe / mid · score 11</sub>  
 
 ---
 <sub>Ranked by overlap with `config/profile.json`. Edit that file to change what surfaces here.</sub>
