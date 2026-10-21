@@ -2,15 +2,15 @@
 
 > Daily snapshot of what AI and tech companies are hiring for in remote roles, built from public job-board APIs. Updated every morning by GitHub Actions.
 
-**2026-10-20** — tracking **2,837 open remote roles** across **89 companies** (837 of them engineering roles). 1,648 postings disclose pay. **60 appeared today.**
+**2026-10-21** — tracking **2,869 open remote roles** across **90 companies** (844 of them engineering roles). 1,676 postings disclose pay. **73 appeared today.**
 
-<sub>Remote-only: 14,344 postings were collected across all locations and 19.8% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
+<sub>Remote-only: 14,396 postings were collected across all locations and 19.9% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
 
 ---
 
 ## Most-requested skills in remote engineering roles
 
-Share of the 837 remote engineering postings that mention each skill.
+Share of the 844 remote engineering postings that mention each skill.
 
 ![Top skills](docs/charts/top-skills.svg)
 
@@ -18,63 +18,63 @@ Share of the 837 remote engineering postings that mention each skill.
 
 | # | Skill | Category | Postings | Share |
 |---:|---|---|---:|---:|
-| 1 | Python | Languages | 372 | 44.4% |
-| 2 | Observability | Practices | 281 | 33.6% |
-| 3 | LLMs | LLM & GenAI | 254 | 30.3% |
-| 4 | Distributed Systems | Practices | 250 | 29.9% |
-| 5 | Machine Learning | ML Fundamentals | 249 | 29.7% |
-| 6 | Go | Languages | 244 | 29.2% |
-| 7 | AI Agents | LLM & GenAI | 235 | 28.1% |
-| 8 | Kubernetes | Infra & Cloud | 218 | 26.0% |
-| 9 | AWS | Infra & Cloud | 215 | 25.7% |
-| 10 | TypeScript | Languages | 184 | 22.0% |
-| 11 | Statistics | ML Fundamentals | 162 | 19.4% |
-| 12 | SQL | Languages | 145 | 17.3% |
-| 13 | Data Pipelines | Data Engineering | 134 | 16.0% |
-| 14 | GCP | Infra & Cloud | 129 | 15.4% |
-| 15 | CI/CD | Practices | 126 | 15.1% |
-| 16 | React | Frameworks & Libraries | 122 | 14.6% |
-| 17 | Terraform | Infra & Cloud | 119 | 14.2% |
-| 18 | Java | Languages | 95 | 11.4% |
-| 19 | Snowflake / BigQuery | Data Engineering | 86 | 10.3% |
-| 20 | Azure | Infra & Cloud | 71 | 8.5% |
-| 21 | Airflow | Data Engineering | 69 | 8.2% |
-| 22 | Spark | Data Engineering | 62 | 7.4% |
-| 23 | Kafka | Data Engineering | 60 | 7.2% |
-| 24 | Rust | Languages | 57 | 6.8% |
-| 25 | Evals | LLM & GenAI | 55 | 6.6% |
+| 1 | Python | Languages | 375 | 44.4% |
+| 2 | Observability | Practices | 292 | 34.6% |
+| 3 | Distributed Systems | Practices | 260 | 30.8% |
+| 4 | LLMs | LLM & GenAI | 256 | 30.3% |
+| 5 | Machine Learning | ML Fundamentals | 251 | 29.7% |
+| 6 | Go | Languages | 249 | 29.5% |
+| 7 | AI Agents | LLM & GenAI | 238 | 28.2% |
+| 8 | AWS | Infra & Cloud | 226 | 26.8% |
+| 9 | Kubernetes | Infra & Cloud | 225 | 26.7% |
+| 10 | TypeScript | Languages | 183 | 21.7% |
+| 11 | Statistics | ML Fundamentals | 160 | 19.0% |
+| 12 | SQL | Languages | 146 | 17.3% |
+| 13 | Data Pipelines | Data Engineering | 136 | 16.1% |
+| 14 | GCP | Infra & Cloud | 135 | 16.0% |
+| 15 | CI/CD | Practices | 128 | 15.2% |
+| 16 | Terraform | Infra & Cloud | 126 | 14.9% |
+| 17 | React | Frameworks & Libraries | 121 | 14.3% |
+| 18 | Java | Languages | 94 | 11.1% |
+| 19 | Snowflake / BigQuery | Data Engineering | 84 | 10.0% |
+| 20 | Azure | Infra & Cloud | 77 | 9.1% |
+| 21 | Airflow | Data Engineering | 67 | 7.9% |
+| 22 | Kafka | Data Engineering | 66 | 7.8% |
+| 23 | Rust | Languages | 63 | 7.5% |
+| 24 | Spark | Data Engineering | 62 | 7.3% |
+| 25 | Evals | LLM & GenAI | 56 | 6.6% |
 | 26 | Security | Practices | 53 | 6.3% |
-| 27 | dbt | Data Engineering | 53 | 6.3% |
-| 28 | PyTorch | Frameworks & Libraries | 52 | 6.2% |
-| 29 | AI Safety | LLM & GenAI | 48 | 5.7% |
-| 30 | Databricks | Data Engineering | 47 | 5.6% |
-| 31 | Docker | Infra & Cloud | 47 | 5.6% |
-| 32 | Linux | Infra & Cloud | 47 | 5.6% |
-| 33 | Recommender Systems | ML Fundamentals | 46 | 5.5% |
-| 34 | MCP | LLM & GenAI | 44 | 5.3% |
+| 27 | PyTorch | Frameworks & Libraries | 53 | 6.3% |
+| 28 | dbt | Data Engineering | 53 | 6.3% |
+| 29 | AI Safety | LLM & GenAI | 49 | 5.8% |
+| 30 | Docker | Infra & Cloud | 48 | 5.7% |
+| 31 | Linux | Infra & Cloud | 47 | 5.6% |
+| 32 | MCP | LLM & GenAI | 46 | 5.5% |
+| 33 | Databricks | Data Engineering | 46 | 5.5% |
+| 34 | Recommender Systems | ML Fundamentals | 45 | 5.3% |
 | 35 | Deep Learning | ML Fundamentals | 42 | 5.0% |
-| 36 | Multimodal | LLM & GenAI | 39 | 4.7% |
-| 37 | MLOps | Practices | 38 | 4.5% |
-| 38 | Fine-tuning | LLM & GenAI | 34 | 4.1% |
-| 39 | TensorFlow | Frameworks & Libraries | 33 | 3.9% |
-| 40 | RAG | LLM & GenAI | 33 | 3.9% |
+| 36 | MLOps | Practices | 39 | 4.6% |
+| 37 | Multimodal | LLM & GenAI | 39 | 4.6% |
+| 38 | Fine-tuning | LLM & GenAI | 36 | 4.3% |
+| 39 | RAG | LLM & GenAI | 36 | 4.3% |
+| 40 | Prompt Engineering | LLM & GenAI | 33 | 3.9% |
 
 </details>
 
 ## Movers
 
-Change in share of postings since 2026-10-13, in percentage points.
+Change in share of postings since 2026-10-14, in percentage points.
 
 | Rising | Δ pp | | Falling | Δ pp |
 |---|---:|---|---|---:|
-| AI Agents | +0.74 | | Machine Learning | -0.64 |
-| Observability | +0.48 | | Statistics | -0.53 |
-| Kubernetes | +0.48 | | Python | -0.36 |
-| GCP | +0.48 | | Rust | -0.33 |
-| AWS | +0.36 | | Docker | -0.28 |
-| Azure | +0.35 | | Kafka | -0.27 |
-| Snowflake / BigQuery | +0.31 | | Go | -0.20 |
-| Data Pipelines | +0.27 | | A/B Testing | -0.19 |
+| Observability | +0.60 | | SQL | -0.61 |
+| AI Agents | +0.55 | | Statistics | -0.51 |
+| GCP | +0.53 | | Python | -0.48 |
+| AWS | +0.46 | | Machine Learning | -0.46 |
+| Azure | +0.43 | | React | -0.33 |
+| AI Safety | +0.29 | | Airflow | -0.31 |
+| Security | +0.26 | | Docker | -0.26 |
+| Fine-tuning | +0.25 | | Rust | -0.23 |
 
 ![Skill trends](docs/charts/trends.svg)
 
@@ -84,26 +84,26 @@ Change in share of postings since 2026-10-13, in percentage points.
 
 | Role family | Postings | Share |
 |---|---:|---:|
-| gtm | 1,060 | 37.4% |
-| swe | 455 | 16.0% |
-| other | 435 | 15.3% |
-| ops | 265 | 9.3% |
-| product | 240 | 8.5% |
-| infra | 157 | 5.5% |
-| ml-ai | 94 | 3.3% |
-| data | 81 | 2.9% |
-| research | 50 | 1.8% |
+| gtm | 1,088 | 37.9% |
+| swe | 460 | 16.0% |
+| other | 433 | 15.1% |
+| ops | 265 | 9.2% |
+| product | 239 | 8.3% |
+| infra | 159 | 5.5% |
+| ml-ai | 95 | 3.3% |
+| data | 80 | 2.8% |
+| research | 50 | 1.7% |
 
 ## Disclosed pay, remote engineering roles
 
-562 of 837 engineering postings (67%) publish a salary range. Figures are the midpoint of the posted band.
+566 of 844 engineering postings (67%) publish a salary range. Figures are the midpoint of the posted band.
 
 | Percentile | Midpoint |
 |---|---:|
-| 25th | $196,285 |
-| Median | $227,000 |
+| 25th | $196,000 |
+| Median | $226,200 |
 | 75th | $260,000 |
-| 90th | $289,530 |
+| 90th | $287,500 |
 
 <details><summary>Highest disclosed engineering bands by company</summary>
 
@@ -159,4 +159,4 @@ python src/probe_slugs.py candidates.txt > config/companies.json
 - Remote status comes from each board's own field where one exists and from the posted location otherwise. Ashby's `isRemote` is ignored because boards set it true on hybrid onsite roles; its `workplaceType` is used instead.
 
 
-<sub>Generated 2026-10-20T13:19:01+00:00 · 4 board(s) unreachable this run</sub>
+<sub>Generated 2026-10-21T13:24:47+00:00 · 4 board(s) unreachable this run</sub>
