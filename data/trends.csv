@@ -3959,3 +3959,69 @@ date,skill,category,count,share,total_jobs
 2026-10-25,Triton,framework,5,0.0017,2896
 2026-10-25,DeepSpeed / FSDP,framework,4,0.0014,2896
 2026-10-25,C++,language,2,0.0007,2896
+2026-10-26,Python,language,587,0.2033,2888
+2026-10-26,Observability,practice,532,0.1842,2888
+2026-10-26,Machine Learning,mlcore,472,0.1634,2888
+2026-10-26,AI Agents,llm,464,0.1607,2888
+2026-10-26,AWS,infra,446,0.1544,2888
+2026-10-26,LLMs,llm,418,0.1447,2888
+2026-10-26,SQL,language,369,0.1278,2888
+2026-10-26,Kubernetes,infra,354,0.1226,2888
+2026-10-26,Distributed Systems,practice,314,0.1087,2888
+2026-10-26,GCP,infra,307,0.1063,2888
+2026-10-26,TypeScript,language,296,0.1025,2888
+2026-10-26,Go,language,291,0.1008,2888
+2026-10-26,Azure,infra,251,0.0869,2888
+2026-10-26,Statistics,mlcore,245,0.0848,2888
+2026-10-26,Data Pipelines,data,234,0.081,2888
+2026-10-26,CI/CD,practice,214,0.0741,2888
+2026-10-26,Snowflake / BigQuery,data,181,0.0627,2888
+2026-10-26,Terraform,infra,168,0.0582,2888
+2026-10-26,React,framework,160,0.0554,2888
+2026-10-26,Databricks,data,157,0.0544,2888
+2026-10-26,Java,language,119,0.0412,2888
+2026-10-26,Linux,infra,116,0.0402,2888
+2026-10-26,Spark,data,114,0.0395,2888
+2026-10-26,Docker,infra,110,0.0381,2888
+2026-10-26,Evals,llm,97,0.0336,2888
+2026-10-26,Security,practice,96,0.0332,2888
+2026-10-26,AI Safety,llm,95,0.0329,2888
+2026-10-26,MCP,llm,84,0.0291,2888
+2026-10-26,Kafka,data,83,0.0287,2888
+2026-10-26,Airflow,data,81,0.028,2888
+2026-10-26,dbt,data,79,0.0274,2888
+2026-10-26,Rust,language,75,0.026,2888
+2026-10-26,Recommender Systems,mlcore,71,0.0246,2888
+2026-10-26,RAG,llm,70,0.0242,2888
+2026-10-26,MLOps,practice,68,0.0235,2888
+2026-10-26,PyTorch,framework,66,0.0229,2888
+2026-10-26,A/B Testing,practice,61,0.0211,2888
+2026-10-26,Fine-tuning,llm,57,0.0197,2888
+2026-10-26,Prompt Engineering,llm,51,0.0177,2888
+2026-10-26,LangChain,framework,50,0.0173,2888
+2026-10-26,GPU Clusters,infra,50,0.0173,2888
+2026-10-26,Deep Learning,mlcore,49,0.017,2888
+2026-10-26,Multimodal,llm,48,0.0166,2888
+2026-10-26,NLP,mlcore,43,0.0149,2888
+2026-10-26,Embeddings,llm,43,0.0149,2888
+2026-10-26,Computer Vision,mlcore,41,0.0142,2888
+2026-10-26,Transformers,llm,40,0.0139,2888
+2026-10-26,Scala,language,39,0.0135,2888
+2026-10-26,TensorFlow,framework,38,0.0132,2888
+2026-10-26,Vector Databases,llm,34,0.0118,2888
+2026-10-26,Ray,framework,30,0.0104,2888
+2026-10-26,scikit-learn,framework,22,0.0076,2888
+2026-10-26,Reinforcement Learning,mlcore,22,0.0076,2888
+2026-10-26,Pandas / NumPy,framework,21,0.0073,2888
+2026-10-26,Quantization,llm,17,0.0059,2888
+2026-10-26,Inference Optimization,llm,16,0.0055,2888
+2026-10-26,CUDA,language,15,0.0052,2888
+2026-10-26,RLHF,llm,13,0.0045,2888
+2026-10-26,JAX,framework,13,0.0045,2888
+2026-10-26,vLLM,framework,11,0.0038,2888
+2026-10-26,Hugging Face,framework,8,0.0028,2888
+2026-10-26,Diffusion Models,llm,7,0.0024,2888
+2026-10-26,Triton,framework,5,0.0017,2888
+2026-10-26,Speech / Audio,mlcore,4,0.0014,2888
+2026-10-26,DeepSpeed / FSDP,framework,4,0.0014,2888
+2026-10-26,C++,language,2,0.0007,2888
