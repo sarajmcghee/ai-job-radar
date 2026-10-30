@@ -1,104 +1,105 @@
-## 25 new roles worth a look — 2026-10-29
+## 25 new roles worth a look — 2026-10-30
 
-_Scored against 51 postings that appeared today._
+_Scored against 58 postings that appeared today._
 
-**1. [Staff Machine Learning Engineer, Compliance Automation (Platform)](https://www.coinbase.com/careers/positions/8333165?gh_jid=8333165)** — Coinbase  
-<sub>Remote · $218,025–$256,500 · ml-ai / staff · score 30</sub>  
-<sub>matches AI Agents, LLMs, Machine Learning, Prompt Engineering, Python, RAG; stretches into Vector Databases; $218,025-$256,500</sub>
+**1. [Solutions Architect - Retail](https://databricks.com/company/careers/open-positions/job?gh_jid=8893728002)** — Databricks  
+<sub>Remote · $180,000–$247,500 · gtm / mid · score 19</sub>  
+<sub>matches AWS, Machine Learning, Python, SQL; $180,000-$247,500</sub>
 
-**2. [Senior Software Engineer, Infrastructure Engineering](https://job-boards.greenhouse.io/reddit/jobs/8331341)** — Reddit  
-<sub>Remote · $190,000–$267,000 · infra / senior · score 24</sub>  
-<sub>matches AWS, Machine Learning, Python; stretches into Kubernetes; $190,000-$267,000</sub>
+**2. [Solutions Architect - Retail](https://databricks.com/company/careers/open-positions/job?gh_jid=8920805002)** — Databricks  
+<sub>Remote · $180,000–$247,500 · gtm / mid · score 19</sub>  
+<sub>matches AWS, Machine Learning, Python, SQL; $180,000-$247,500</sub>
 
-**3. [Technical Curriculum Developer, Technical Enablement](https://stripe.com/jobs/search?gh_jid=8164666)** — Stripe  
+**3. [Senior Frontend Engineer, Ads Formats](https://job-boards.greenhouse.io/reddit/jobs/8287466)** — Reddit  
+<sub>Remote · $190,800–$267,100 · swe / senior · score 18</sub>  
+<sub>matches AI Agents; stretches into TypeScript; $190,800-$267,100</sub>
+
+**4. [Senior Sales Engineer, Enterprise](https://www.fivetran.com/careers/job?gh_jid=8048807003)** — Fivetran  
+<sub>Remote · gtm / senior · score 17</sub>  
+<sub>matches AWS, Data Pipelines, Python, SQL</sub>
+
+**5. [Sr. Engineer, Core](https://jobs.ashbyhq.com/doppler/cf74b4e7-d499-4d85-8764-5e653e421c20)** — Doppler  
+<sub>Remote · $180,000–$200,000 · other / senior · score 16</sub>  
+<sub>matches AI Agents, AWS; stretches into Kubernetes, TypeScript; $180,000-$200,000</sub>
+
+**6. [Backend Engineer, Source Code: Repository Services (Ruby)](https://job-boards.greenhouse.io/gitlab/jobs/8922427002)** — GitLab  
 <sub>Remote · swe / mid · score 16</sub>  
-<sub>matches Python; stretches into TypeScript</sub>
+<sub>matches CI/CD; stretches into Kubernetes</sub>
 
-**4. [Staff+ Software Engineer, Deployment](https://job-boards.greenhouse.io/anthropic/jobs/5466480008)** — Anthropic  
-<sub>Remote · $405,000–$485,000 · swe / staff · score 14</sub>  
-<sub>matches AI Agents, AWS; stretches into Kubernetes; $405,000-$485,000</sub>
+**7. [Senior ABM Manager](https://job-boards.greenhouse.io/chainguard/jobs/4725964006)** — Chainguard  
+<sub>Remote · $140,000–$167,500 · other / senior · score 14</sub>  
+<sub>matches LLMs, SQL; stretches into Kubernetes; $140,000-$167,500</sub>
 
-**5. [Software Engineer, Payments](https://careers.airbnb.com/positions/8332157?gh_jid=8332157)** — Airbnb  
-<sub>Remote · $160,000–$180,000 · swe / mid · score 13</sub>  
-<sub>$160,000-$180,000</sub>
+**8. [Staff / Senior Data Center Security Engineer](https://job-boards.greenhouse.io/anthropic/jobs/5419154008)** — Anthropic  
+<sub>Remote · $320,000–$405,000 · infra / staff · score 14</sub>  
+<sub>matches AI Agents; $320,000-$405,000</sub>
 
-**6. [Senior Product Manager - Fraud](https://job-boards.greenhouse.io/mercury/jobs/6236462004)** — Mercury  
-<sub>Remote · $200,700–$250,900 · product / senior · score 13</sub>  
-<sub>matches Data Pipelines, Machine Learning; $200,700-$250,900</sub>
+**9. [Staff Machine Learning Engineer, Ads Forecasting & Scenarios](https://job-boards.greenhouse.io/reddit/jobs/8334138)** — Reddit  
+<sub>Remote · $230,000–$322,000 · ml-ai / staff · score 14</sub>  
+<sub>matches Machine Learning; $230,000-$322,000</sub>
 
-**7. [Senior Field Engineer, Data Center Design and Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5466517008)** — Anthropic  
-<sub>Remote · $320,000–$405,000 · product / senior · score 11</sub>  
-<sub>$320,000-$405,000</sub>
+**10. [Senior Software Engineer, Backend (Coinbase One)](https://www.coinbase.com/careers/positions/8335547?gh_jid=8335547)** — Coinbase  
+<sub>Remote · $186,065–$218,900 · swe / senior · score 13</sub>  
+<sub>$186,065-$218,900</sub>
 
-**8. [Senior Solutions Engineer, Acquisition | West Coast | Remote](https://job-boards.greenhouse.io/grafanalabs/jobs/6236201004)** — Grafana Labs  
-<sub>Remote · $204,000–$254,000 · gtm / senior · score 11</sub>  
-<sub>$204,000-$254,000</sub>
+**11. [Sr. Growth Product Manager](https://jobs.ashbyhq.com/doppler/ba707ba8-9792-4485-990a-2273e01f410e)** — Doppler  
+<sub>Remote · $170,000–$200,000 · product / senior · score 13</sub>  
+<sub>matches AI Agents, SQL; $170,000-$200,000</sub>
 
-**9. [Account Executive - Italy - SMB](https://jobs.ashbyhq.com/elevenlabs/5e43ae90-da6a-4a94-b497-458fd6b160e2)** — ElevenLabs  
+**12. [Backend Engineer, Source Code: Repository Services (Ruby)](https://job-boards.greenhouse.io/gitlab/jobs/8912709002)** — GitLab  
+<sub>Remote · $115,200–$194,400 · swe / mid · score 13</sub>  
+<sub>$115,200-$194,400</sub>
+
+**13. [Staff Software Engineer, Service Configuration Deployments](https://www.pinterestcareers.com/jobs/?gh_jid=8046838)** — Pinterest  
+<sub>Remote · $177,185–$364,795 · swe / staff · score 13</sub>  
+<sub>matches CI/CD, Machine Learning; $177,185-$364,795</sub>
+
+**14. [Developer Programs Lead](https://jobs.ashbyhq.com/render/76fd7bc4-1808-4bff-8663-16c917f45f4e)** — Render  
+<sub>Remote · $236,000–$289,000 · swe / mid · score 13</sub>  
+<sub>$236,000-$289,000</sub>
+
+**15. [Solutions Architect, Integrations - Public Sector (US/CA)](https://jobs.ashbyhq.com/sardine/b03b9dc7-9655-4eda-b918-7acd3da2ffb0)** — Sardine  
+<sub>Remote · $125,000–$210,000 · gtm / mid · score 13</sub>  
+<sub>matches Python, SQL; $125,000-$210,000</sub>
+
+**16. [Security Analyst (Governance and Trust)](https://job-boards.greenhouse.io/chainguard/jobs/4722151006)** — Chainguard  
+<sub>Remote · other / mid · score 11</sub>  
+<sub>matches AI Agents, Prompt Engineering</sub>
+
+**17. [Solutions Architect - Australia](https://jobs.ashbyhq.com/cursor/f277b2d6-c27e-4cb9-9d0b-644e9730f06c)** — Cursor  
+<sub>Remote · gtm / mid · score 11</sub>  
+<sub>matches AI Agents, CI/CD</sub>
+
+**18. [Sales Engineering Manager Core - Mainland Europe](https://www.samsara.com/company/careers/roles/8336439?gh_jid=8336439)** — Samsara  
+<sub>Remote · swe / mid · score 11</sub>  
+
+**19. [Senior Field Marketing Manager - Public Sector, Federal & Defense](https://careers.datadoghq.com/detail/8324702/?gh_jid=8324702)** — Datadog  
+<sub>Remote · $124,000–$165,000 · gtm / senior · score 10</sub>  
+<sub>matches AWS; $124,000-$165,000</sub>
+
+**20. [Associate General Counsel, Ads Product](https://job-boards.greenhouse.io/reddit/jobs/8148089)** — Reddit  
+<sub>Remote · $266,000–$372,400 · ops / entry · score 10</sub>  
+<sub>matches Machine Learning; $266,000-$372,400</sub>
+
+**21. [Technical Support Engineer](https://cribl.io/job-detail/?gh_jid=6232798004)** — Cribl  
+<sub>Remote · other / mid · score 10</sub>  
+<sub>matches AWS; stretches into TypeScript</sub>
+
+**22. [Instructional Designer, Global Sales Enablement](https://stripe.com/jobs/search?gh_jid=8212672)** — Stripe  
+<sub>Remote · product / mid · score 8</sub>  
+<sub>matches LLMs</sub>
+
+**23. [Marketing Operations Program Manager](https://stripe.com/jobs/search?gh_jid=8283786)** — Stripe  
+<sub>Remote · product / mid · score 8</sub>  
+<sub>matches AI Agents</sub>
+
+**24. [Partner Solutions Architect , AI Builder](https://jobs.ashbyhq.com/supabase/282d1dfb-b162-4ce4-a938-c4b2173230e0)** — Supabase  
 <sub>Remote · gtm / mid · score 8</sub>  
 <sub>matches LLMs</sub>
 
-**10. [Renewals Associate](https://job-boards.greenhouse.io/airtable/jobs/8905022002)** — Airtable  
-<sub>Remote · $98,000–$127,700 · gtm / entry · score 7</sub>  
-<sub>$98,000-$127,700</sub>
-
-**11. [GRC Analyst (EMEA)](https://job-boards.greenhouse.io/chainguard/jobs/4723154006)** — Chainguard  
-<sub>Remote · $89,000–$105,000 · other / mid · score 7</sub>  
-<sub>$89,000-$105,000</sub>
-
-**12. [Enterprise Sales Executive](https://careers.datadoghq.com/detail/6925405/?gh_jid=6925405)** — Datadog  
-<sub>Remote · $98,000–$130,000 · gtm / mid · score 7</sub>  
-<sub>$98,000-$130,000</sub>
-
-**13. [Key Accounts Executive](https://careers.datadoghq.com/detail/7579684/?gh_jid=7579684)** — Datadog  
-<sub>Remote · $128,000–$170,000 · gtm / mid · score 7</sub>  
-<sub>$128,000-$170,000</sub>
-
-**14. [Senior Recruiter - Compliance](https://job-boards.greenhouse.io/mercury/jobs/6238063004)** — Mercury  
-<sub>Remote · $132,400–$165,500 · gtm / senior · score 7</sub>  
-<sub>$132,400-$165,500</sub>
-
-**15. [Sr. UX Engineer](https://www.pinterestcareers.com/jobs/?gh_jid=8015362)** — Pinterest  
-<sub>Remote · $155,584–$320,320 · product / senior · score 7</sub>  
-<sub>$155,584-$320,320</sub>
-
-**16. [Account Development Representative - Canada](https://www.samsara.com/company/careers/roles/8332753?gh_jid=8332753)** — Samsara  
-<sub>Remote · $65,450–$84,700 · other / mid · score 7</sub>  
-<sub>$65,450-$84,700</sub>
-
-**17. [Account Development Representative II - Atlanta](https://www.samsara.com/company/careers/roles/8325046?gh_jid=8325046)** — Samsara  
-<sub>Remote · $54,621–$73,440 · other / mid · score 7</sub>  
-<sub>$54,621-$73,440</sub>
-
-**18. [Account Development Representative II - Phoenix](https://www.samsara.com/company/careers/roles/8325349?gh_jid=8325349)** — Samsara  
-<sub>Remote · $54,621–$73,400 · other / mid · score 7</sub>  
-<sub>$54,621-$73,400</sub>
-
-**19. [Account Development Representative II - Toronto](https://www.samsara.com/company/careers/roles/8332749?gh_jid=8332749)** — Samsara  
-<sub>Remote · $81,515–$105,490 · other / mid · score 7</sub>  
-<sub>$81,515-$105,490</sub>
-
-**20. [Account Executive, Commercial ( West)](https://www.samsara.com/company/careers/roles/8331538?gh_jid=8331538)** — Samsara  
-<sub>Remote · $106,050–$151,500 · gtm / mid · score 7</sub>  
-<sub>$106,050-$151,500</sub>
-
-**21. [Mid-Market Account Executive - Public Sector  (Southwest)](https://www.samsara.com/company/careers/roles/8205198?gh_jid=8205198)** — Samsara  
-<sub>Remote · $152,000–$190,000 · gtm / mid · score 7</sub>  
-<sub>$152,000-$190,000</sub>
-
-**22. [Senior Business Value Strategist](https://www.samsara.com/company/careers/roles/8315202?gh_jid=8315202)** — Samsara  
-<sub>Remote · $101,834–$154,035 · gtm / senior · score 7</sub>  
-<sub>$101,834-$154,035</sub>
-
-**23. [Key Account Leader, Majors, Public Safety (Northwest)](https://jobs.ashbyhq.com/skydio/689cb280-bf2c-4672-adf3-7362d8960c8c)** — Skydio  
-<sub>Remote · $144,000–$180,000 · ops / mid · score 7</sub>  
-<sub>$144,000-$180,000</sub>
-
-**24. [Commercial Account Executive - Brazil](https://job-boards.greenhouse.io/chainguard/jobs/4725598006)** — Chainguard  
-<sub>Remote · gtm / mid · score 5</sub>  
-
-**25. [Enterprise Account Executive - Brazil](https://job-boards.greenhouse.io/chainguard/jobs/4725582006)** — Chainguard  
-<sub>Remote · gtm / mid · score 5</sub>  
+**25. [Design Engineer](https://jobs.ashbyhq.com/cohere/75765a04-82cb-4d17-ac53-09b156656a7d)** — Cohere  
+<sub>Remote · $180,000–$245,000 · product / mid · score 7</sub>  
+<sub>$180,000-$245,000</sub>
 
 ---
 <sub>Ranked by overlap with `config/profile.json`. Edit that file to change what surfaces here.</sub>
