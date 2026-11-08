@@ -2,9 +2,9 @@
 
 > Daily snapshot of what AI and tech companies are hiring for in remote roles, built from public job-board APIs. Updated every morning by GitHub Actions.
 
-**2026-11-07** — tracking **2,910 open remote roles** across **88 companies** (812 of them engineering roles). 1,720 postings disclose pay. **90 appeared today.**
+**2026-11-08** — tracking **2,903 open remote roles** across **88 companies** (812 of them engineering roles). 1,716 postings disclose pay. **1 appeared today.**
 
-<sub>Remote-only: 14,630 postings were collected across all locations and 19.9% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
+<sub>Remote-only: 14,626 postings were collected across all locations and 19.9% of them were remote. Set `remote_only` to false in `config/settings.json` to track every location.</sub>
 
 ---
 
@@ -63,18 +63,18 @@ Share of the 812 remote engineering postings that mention each skill.
 
 ## Movers
 
-Change in share of postings since 2026-10-31, in percentage points.
+Change in share of postings since 2026-11-01, in percentage points.
 
 | Rising | Δ pp | | Falling | Δ pp |
 |---|---:|---|---|---:|
-| Observability | +0.37 | | Machine Learning | -0.76 |
-| Linux | +0.31 | | AWS | -0.40 |
-| MCP | +0.25 | | Terraform | -0.39 |
-| TypeScript | +0.23 | | Go | -0.39 |
-| Prompt Engineering | +0.19 | | Snowflake / BigQuery | -0.33 |
-| Evals | +0.18 | | Kubernetes | -0.30 |
-| Azure | +0.14 | | Kafka | -0.27 |
-| dbt | +0.12 | | PyTorch | -0.25 |
+| Observability | +0.46 | | Machine Learning | -0.71 |
+| Linux | +0.33 | | Terraform | -0.36 |
+| MCP | +0.27 | | Go | -0.35 |
+| TypeScript | +0.24 | | Snowflake / BigQuery | -0.30 |
+| Prompt Engineering | +0.20 | | AWS | -0.29 |
+| Evals | +0.19 | | PyTorch | -0.25 |
+| Azure | +0.18 | | TensorFlow | -0.25 |
+| GCP | +0.17 | | Embeddings | -0.25 |
 
 ![Skill trends](docs/charts/trends.svg)
 
@@ -84,10 +84,10 @@ Change in share of postings since 2026-10-31, in percentage points.
 
 | Role family | Postings | Share |
 |---|---:|---:|
-| gtm | 1,168 | 40.1% |
+| gtm | 1,166 | 40.2% |
 | swe | 445 | 15.3% |
-| other | 415 | 14.3% |
-| ops | 283 | 9.7% |
+| other | 412 | 14.2% |
+| ops | 281 | 9.7% |
 | product | 232 | 8.0% |
 | infra | 157 | 5.4% |
 | ml-ai | 89 | 3.1% |
@@ -159,4 +159,4 @@ python src/probe_slugs.py candidates.txt > config/companies.json
 - Remote status comes from each board's own field where one exists and from the posted location otherwise. Ashby's `isRemote` is ignored because boards set it true on hybrid onsite roles; its `workplaceType` is used instead.
 
 
-<sub>Generated 2026-11-07T14:41:03+00:00 · 5 board(s) unreachable this run</sub>
+<sub>Generated 2026-11-08T14:46:06+00:00 · 5 board(s) unreachable this run</sub>
